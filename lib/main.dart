@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:demo_app/config/theme/app_theme.dart';
+import 'package:demo_app/config/router/app_router.dart';
 
 void main() {
   runApp(const MyApp());
