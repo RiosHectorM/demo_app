@@ -44,9 +44,11 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     return  Scaffold(
       body: FlutterLogin(
         title: 'Demo Xionico',
+        theme: LoginTheme(primaryColor: colors.primary, accentColor: colors.inversePrimary), 
         onLogin: _authUser, 
       onRecoverPassword: _recoverPassword, 
       onSignup: _signupUser,
