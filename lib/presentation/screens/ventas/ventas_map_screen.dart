@@ -12,6 +12,7 @@ class MapaVentasScreen extends StatefulWidget {
 class _MapaVentasScreenState extends State<MapaVentasScreen> {
   final MapController _mapController = MapController();
   List<Marker> _marcadores = [];
+  LatLng? _initialPosition; // Guardará la posición del primer marcador
 
   @override
   void initState() {
@@ -29,6 +30,14 @@ class _MapaVentasScreenState extends State<MapaVentasScreen> {
         LatLng? coordenadas = await _obtenerCoordenadas(direccion);
         if (coordenadas != null) {
           _agregarMarcador(coordenadas, venta['cliente']);
+
+          // Si es el primer marcador, guardar su posición y mover el mapa
+          if (_initialPosition == null) {
+            setState(() {
+              _initialPosition = coordenadas;
+            });
+            _mapController.move(_initialPosition!, 15.0);
+          }
         }
       }
     }
@@ -78,7 +87,8 @@ class _MapaVentasScreenState extends State<MapaVentasScreen> {
       body: FlutterMap(
         mapController: _mapController,
         options: MapOptions(
-          initialCenter: LatLng(-34.6037, -58.3816), // Buenos Aires
+          initialCenter: _initialPosition ??
+              LatLng(-34.6037, -58.3816), // Buenos Aires por defecto
           initialZoom: 12,
         ),
         children: [
