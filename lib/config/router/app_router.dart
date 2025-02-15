@@ -4,7 +4,7 @@ import 'package:demo_app/presentation/screens/ventas/productos_screen.dart';
 import 'package:go_router/go_router.dart';
 
 final appRouter = GoRouter(
-  initialLocation: '/login', // Mantén la ruta inicial en login
+  initialLocation: '/login', // Ruta inicial
   routes: [
     GoRoute(
       path: '/login',
@@ -12,31 +12,29 @@ final appRouter = GoRouter(
       builder: (context, GoRouterState state) {
         return const LoginScreen();
       },
-      routes: [
-        GoRoute(
-          path: 'home',
-          builder: (context, GoRouterState state) {
-            return const HomeScreen();
-          },
-          // Agrega la navegación a otras pantallas desde Home
-          routes: [
-            GoRoute(
-              path: 'clienteslist',
-              builder: (context, GoRouterState state) {
-                return ClientesScreen();
-              },
-            ),
-            GoRoute(
-              path: '/productos/:nombreCliente',
-              builder: (context, state) {
-                final String nombreCliente =
-                    Uri.decodeComponent(state.pathParameters['nombreCliente']!);
-                return ProductosScreen(nombre: nombreCliente);
-              },
-            ),
-          ],
-        ),
-      ],
+    ),
+    GoRoute(
+      path: '/home',
+      name: 'home', // Ruta para la pantalla principal después del login
+      builder: (context, GoRouterState state) {
+        return const HomeScreen();
+      },
+    ),
+    GoRoute(
+      path: '/clienteslist',
+      name: 'clienteslist',
+      builder: (context, GoRouterState state) {
+        return ClientesScreen();
+      },
+    ),
+    GoRoute(
+      path: '/productos/:nombreCliente',
+      name: 'productos',
+      builder: (context, state) {
+        final String nombreCliente =
+            Uri.decodeComponent(state.pathParameters['nombreCliente']!);
+        return ProductosScreen(nombre: nombreCliente);
+      },
     ),
   ],
 );

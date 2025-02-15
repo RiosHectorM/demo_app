@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
+  static const name = 'home';
 
   @override
   Widget build(BuildContext context) {
@@ -48,7 +49,7 @@ class _DrawerMenu extends StatelessWidget {
             child: ListTile(
                 leading: Icon(Icons.people_alt),
                 title: Text("CLIENTES"),
-                onTap: () => context.go('/clienteslist')),
+                onTap: () => context.goNamed('clienteslist')),
           ),
           FadeInLeft(
             delay: Duration(milliseconds: 150),

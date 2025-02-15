@@ -40,8 +40,13 @@ class ClientesScreen extends StatelessWidget {
                   ),
                   elevation: 2.0,
                   child: ListTile(
-                    onTap: () => context.go(
-                        '/productos/${Uri.encodeComponent(cliente.nombre)}'),
+                    onTap: () {
+                      final nombreCliente =
+                          cliente.nombre; // Aquí tomas el nombre del cliente
+                      context.goNamed('productos', pathParameters: {
+                        'nombreCliente': Uri.encodeComponent(nombreCliente)
+                      });
+                    },
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
                       children: [
