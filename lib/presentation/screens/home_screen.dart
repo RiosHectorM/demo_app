@@ -73,9 +73,7 @@ class _DrawerMenu extends StatelessWidget {
                 ListTile(
                   leading: Icon(Icons.pin_drop_outlined),
                   title: Text("Mapa de Ventas"),
-                  onTap: () {
-                    Navigator.pop(context);
-                  },
+                  onTap: () => context.goNamed('mapas'),
                 ),
               ],
             ),

@@ -1,5 +1,6 @@
 import 'package:demo_app/presentation/screens/clientes/clientes_list.dart';
 import 'package:demo_app/presentation/screens/screens.dart';
+import 'package:demo_app/presentation/screens/ventas/ventas_map_screen.dart';
 import 'package:demo_app/presentation/screens/ventas/productos_screen.dart';
 import 'package:demo_app/presentation/screens/ventas/reportes_screen.dart';
 import 'package:go_router/go_router.dart';
@@ -29,12 +30,18 @@ final appRouter = GoRouter(
       },
     ),
     GoRoute(
-      path: '/productos/:nombreCliente',
+      path: '/productos/:nombreCliente/:direccionCliente',
       name: 'productos',
       builder: (context, state) {
         final String nombreCliente =
             Uri.decodeComponent(state.pathParameters['nombreCliente']!);
-        return ProductosScreen(nombre: nombreCliente);
+        final String direccionCliente =
+            Uri.decodeComponent(state.pathParameters['direccionCliente']!);
+
+        return ProductosScreen(
+          nombre: nombreCliente,
+          direccion: direccionCliente,
+        );
       },
     ),
     GoRoute(
@@ -42,6 +49,13 @@ final appRouter = GoRouter(
       name: 'reportes',
       builder: (context, GoRouterState state) {
         return ReportesScreen();
+      },
+    ),
+    GoRoute(
+      path: '/mapas',
+      name: 'mapas',
+      builder: (context, GoRouterState state) {
+        return MapaVentasScreen();
       },
     )
   ],

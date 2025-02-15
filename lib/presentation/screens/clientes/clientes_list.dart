@@ -41,11 +41,17 @@ class ClientesScreen extends StatelessWidget {
                   elevation: 2.0,
                   child: ListTile(
                     onTap: () {
-                      final nombreCliente =
-                          cliente.nombre; // Aquí tomas el nombre del cliente
-                      context.goNamed('productos', pathParameters: {
-                        'nombreCliente': Uri.encodeComponent(nombreCliente)
-                      });
+                      final nombreCliente = cliente.nombre;
+                      final direccionCliente = cliente.direccion;
+
+                      context.goNamed(
+                        'productos',
+                        pathParameters: {
+                          'nombreCliente': Uri.encodeComponent(nombreCliente),
+                          'direccionCliente':
+                              Uri.encodeComponent(direccionCliente),
+                        },
+                      );
                     },
                     title: Row(
                       mainAxisAlignment: MainAxisAlignment.start,
