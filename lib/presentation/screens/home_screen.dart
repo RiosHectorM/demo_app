@@ -58,12 +58,9 @@ class _DrawerMenu extends StatelessWidget {
               title: Text("REPORTES"),
               children: [
                 ListTile(
-                  leading: Icon(Icons.monetization_on_sharp),
-                  title: Text("Reporte de Ventas"),
-                  onTap: () {
-                    Navigator.pop(context);
-                  },
-                ),
+                    leading: Icon(Icons.monetization_on_sharp),
+                    title: Text("Reporte de Ventas"),
+                    onTap: () => context.goNamed('reportes')),
               ],
             ),
           ),

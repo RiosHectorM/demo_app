@@ -1,6 +1,7 @@
 import 'package:demo_app/presentation/screens/clientes/clientes_list.dart';
 import 'package:demo_app/presentation/screens/screens.dart';
 import 'package:demo_app/presentation/screens/ventas/productos_screen.dart';
+import 'package:demo_app/presentation/screens/ventas/reportes_screen.dart';
 import 'package:go_router/go_router.dart';
 
 final appRouter = GoRouter(
@@ -36,5 +37,12 @@ final appRouter = GoRouter(
         return ProductosScreen(nombre: nombreCliente);
       },
     ),
+    GoRoute(
+      path: '/reportes',
+      name: 'reportes',
+      builder: (context, GoRouterState state) {
+        return ReportesScreen();
+      },
+    )
   ],
 );
