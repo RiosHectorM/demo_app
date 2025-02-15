@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import '../../../providers/clientes_provider.dart';
 
 class ClientesScreen extends StatelessWidget {
-
   static const name = 'clienteslist';
 
   final TextEditingController _iconoController = TextEditingController();
@@ -19,7 +19,13 @@ class ClientesScreen extends StatelessWidget {
     final colors = Theme.of(context).colorScheme;
 
     return Scaffold(
-      appBar: AppBar(title: Text("Lista de Clientes", style: TextStyle(color: colors.inversePrimary),), backgroundColor: colors.primary,),
+      appBar: AppBar(
+        title: Text(
+          "Lista de Clientes",
+          style: TextStyle(color: colors.inversePrimary),
+        ),
+        backgroundColor: colors.primary,
+      ),
       body: Column(
         children: [
           Expanded(
@@ -34,12 +40,28 @@ class ClientesScreen extends StatelessWidget {
                   ),
                   elevation: 2.0,
                   child: ListTile(
-                    title: Column(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    onTap: () => context.go(
+                        '/productos/${Uri.encodeComponent(cliente.nombre)}'),
+                    title: Row(
+                      mainAxisAlignment: MainAxisAlignment.start,
                       children: [
-                        Text("${cliente.icono} - ${cliente.nombre}"),
-                        Text(cliente.direccion),
-                        Text(cliente.categoria),
+                        Text(cliente.icono),
+                        SizedBox(width: 50),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              cliente.nombre,
+                              style: TextStyle(
+                                  fontSize: 20, fontWeight: FontWeight.bold),
+                            ),
+                            Text(
+                              cliente.direccion,
+                              style: TextStyle(fontStyle: FontStyle.italic),
+                            ),
+                            Text(cliente.categoria),
+                          ],
+                        )
                       ],
                     ),
                     trailing: Row(
@@ -61,19 +83,23 @@ class ClientesScreen extends StatelessWidget {
                                   children: [
                                     TextField(
                                       controller: _iconoController,
-                                      decoration: InputDecoration(labelText: "Icono"),
+                                      decoration:
+                                          InputDecoration(labelText: "Icono"),
                                     ),
                                     TextField(
                                       controller: _nombreController,
-                                      decoration: InputDecoration(labelText: "Nombre"),
+                                      decoration:
+                                          InputDecoration(labelText: "Nombre"),
                                     ),
                                     TextField(
                                       controller: _direccionController,
-                                      decoration: InputDecoration(labelText: "Direccion"),
+                                      decoration: InputDecoration(
+                                          labelText: "Direccion"),
                                     ),
                                     TextField(
                                       controller: _categoriaController,
-                                      decoration: InputDecoration(labelText: "Categoria"),
+                                      decoration: InputDecoration(
+                                          labelText: "Categoria"),
                                     ),
                                   ],
                                 ),
@@ -86,10 +112,13 @@ class ClientesScreen extends StatelessWidget {
                                     onPressed: () {
                                       String icono = _iconoController.text;
                                       String nombre = _nombreController.text;
-                                      String direccion = _direccionController.text;
-                                      String categoria = _categoriaController.text;
+                                      String direccion =
+                                          _direccionController.text;
+                                      String categoria =
+                                          _categoriaController.text;
                                       if (nombre.isNotEmpty) {
-                                        provider.updateCliente(index, icono, nombre, direccion, categoria);
+                                        provider.updateCliente(index, icono,
+                                            nombre, direccion, categoria);
                                         Navigator.pop(context);
                                         _iconoController.clear();
                                         _nombreController.clear();
@@ -143,7 +172,8 @@ class AddCliente extends StatelessWidget {
   final TextEditingController categoriaController;
   final ClientesProvider provider;
 
-  const AddCliente({super.key, 
+  const AddCliente({
+    super.key,
     required this.iconoController,
     required this.nombreController,
     required this.direccionController,

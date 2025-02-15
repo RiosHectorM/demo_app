@@ -1,0 +1,7002 @@
+[
+    {
+        "ID": 1,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 16,
+        "Precio": 216.87
+    },
+    {
+        "ID": 2,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 93.43
+    },
+    {
+        "ID": 3,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 27,
+        "Precio": 39.18
+    },
+    {
+        "ID": 4,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 9,
+        "Precio": 349.91
+    },
+    {
+        "ID": 5,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 50,
+        "Precio": 58.78
+    },
+    {
+        "ID": 6,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 28,
+        "Precio": 82.38
+    },
+    {
+        "ID": 7,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 37,
+        "Precio": 391.69
+    },
+    {
+        "ID": 8,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 44,
+        "Precio": 239.48
+    },
+    {
+        "ID": 9,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 42,
+        "Precio": 384.72
+    },
+    {
+        "ID": 10,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 27,
+        "Precio": 453.41
+    },
+    {
+        "ID": 11,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 35,
+        "Precio": 355.71
+    },
+    {
+        "ID": 12,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 5,
+        "Precio": 403.24
+    },
+    {
+        "ID": 13,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 50,
+        "Precio": 5.32
+    },
+    {
+        "ID": 14,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 10,
+        "Precio": 193.63
+    },
+    {
+        "ID": 15,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 17,
+        "Precio": 324.74
+    },
+    {
+        "ID": 16,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 31,
+        "Precio": 295.89
+    },
+    {
+        "ID": 17,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 32,
+        "Precio": 54.19
+    },
+    {
+        "ID": 18,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 189.7
+    },
+    {
+        "ID": 19,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 1,
+        "Precio": 429.77
+    },
+    {
+        "ID": 20,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 42,
+        "Precio": 188.66
+    },
+    {
+        "ID": 21,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 332.68
+    },
+    {
+        "ID": 22,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 1,
+        "Precio": 324.33
+    },
+    {
+        "ID": 23,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 29,
+        "Precio": 328.08
+    },
+    {
+        "ID": 24,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 37,
+        "Precio": 131.04
+    },
+    {
+        "ID": 25,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 49,
+        "Precio": 484.21
+    },
+    {
+        "ID": 26,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 28,
+        "Precio": 110.43
+    },
+    {
+        "ID": 27,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 10,
+        "Precio": 227.92
+    },
+    {
+        "ID": 28,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 44,
+        "Precio": 13.62
+    },
+    {
+        "ID": 29,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 4,
+        "Precio": 101.31
+    },
+    {
+        "ID": 30,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 145.14
+    },
+    {
+        "ID": 31,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 487.07
+    },
+    {
+        "ID": 32,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 2,
+        "Precio": 497.31
+    },
+    {
+        "ID": 33,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 36,
+        "Precio": 35.44
+    },
+    {
+        "ID": 34,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 9,
+        "Precio": 383.23
+    },
+    {
+        "ID": 35,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 20,
+        "Precio": 84.24
+    },
+    {
+        "ID": 36,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 43,
+        "Precio": 471.59
+    },
+    {
+        "ID": 37,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 29,
+        "Precio": 76.75
+    },
+    {
+        "ID": 38,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 49,
+        "Precio": 54.51
+    },
+    {
+        "ID": 39,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 312.85
+    },
+    {
+        "ID": 40,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 18,
+        "Precio": 482.14
+    },
+    {
+        "ID": 41,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 30,
+        "Precio": 46.08
+    },
+    {
+        "ID": 42,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 242.55
+    },
+    {
+        "ID": 43,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 50,
+        "Precio": 375.58
+    },
+    {
+        "ID": 44,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 43,
+        "Precio": 110.65
+    },
+    {
+        "ID": 45,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 50,
+        "Precio": 112.44
+    },
+    {
+        "ID": 46,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 38,
+        "Precio": 199.29
+    },
+    {
+        "ID": 47,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 27,
+        "Precio": 493.26
+    },
+    {
+        "ID": 48,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 49,
+        "Precio": 301.85
+    },
+    {
+        "ID": 49,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 1,
+        "Precio": 269.46
+    },
+    {
+        "ID": 50,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 29,
+        "Precio": 406.8
+    },
+    {
+        "ID": 51,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 2,
+        "Precio": 312.45
+    },
+    {
+        "ID": 52,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 89.02
+    },
+    {
+        "ID": 53,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 89.22
+    },
+    {
+        "ID": 54,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 12,
+        "Precio": 344.88
+    },
+    {
+        "ID": 55,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 59.32
+    },
+    {
+        "ID": 56,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 48,
+        "Precio": 459.42
+    },
+    {
+        "ID": 57,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 43,
+        "Precio": 443.23
+    },
+    {
+        "ID": 58,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 17,
+        "Precio": 41.86
+    },
+    {
+        "ID": 59,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 50,
+        "Precio": 142.53
+    },
+    {
+        "ID": 60,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 39,
+        "Precio": 201.13
+    },
+    {
+        "ID": 61,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 45,
+        "Precio": 86.68
+    },
+    {
+        "ID": 62,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 365.71
+    },
+    {
+        "ID": 63,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 11,
+        "Precio": 340.23
+    },
+    {
+        "ID": 64,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 5,
+        "Precio": 262.1
+    },
+    {
+        "ID": 65,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 5,
+        "Precio": 174.59
+    },
+    {
+        "ID": 66,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 45,
+        "Precio": 11.01
+    },
+    {
+        "ID": 67,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 212.89
+    },
+    {
+        "ID": 68,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 31,
+        "Precio": 219.3
+    },
+    {
+        "ID": 69,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 4,
+        "Precio": 185.64
+    },
+    {
+        "ID": 70,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 230.36
+    },
+    {
+        "ID": 71,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 18,
+        "Precio": 271.25
+    },
+    {
+        "ID": 72,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 18,
+        "Precio": 66.26
+    },
+    {
+        "ID": 73,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 12,
+        "Precio": 297.14
+    },
+    {
+        "ID": 74,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 5,
+        "Precio": 277.54
+    },
+    {
+        "ID": 75,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 43,
+        "Precio": 435.48
+    },
+    {
+        "ID": 76,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 41,
+        "Precio": 476.61
+    },
+    {
+        "ID": 77,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 2,
+        "Precio": 34.77
+    },
+    {
+        "ID": 78,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 8,
+        "Precio": 288.04
+    },
+    {
+        "ID": 79,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 2,
+        "Precio": 6.05
+    },
+    {
+        "ID": 80,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 37,
+        "Precio": 476.9
+    },
+    {
+        "ID": 81,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 41,
+        "Precio": 450.83
+    },
+    {
+        "ID": 82,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 3,
+        "Precio": 372.03
+    },
+    {
+        "ID": 83,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 8,
+        "Precio": 35.4
+    },
+    {
+        "ID": 84,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 13,
+        "Precio": 217.04
+    },
+    {
+        "ID": 85,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 28,
+        "Precio": 418.12
+    },
+    {
+        "ID": 86,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 46,
+        "Precio": 455.48
+    },
+    {
+        "ID": 87,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 33,
+        "Precio": 218.56
+    },
+    {
+        "ID": 88,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 6,
+        "Precio": 91.0
+    },
+    {
+        "ID": 89,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 7,
+        "Precio": 102.73
+    },
+    {
+        "ID": 90,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 242.28
+    },
+    {
+        "ID": 91,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 23.77
+    },
+    {
+        "ID": 92,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 30,
+        "Precio": 193.25
+    },
+    {
+        "ID": 93,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 40,
+        "Precio": 135.68
+    },
+    {
+        "ID": 94,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 229.68
+    },
+    {
+        "ID": 95,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 27,
+        "Precio": 57.83
+    },
+    {
+        "ID": 96,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 47,
+        "Precio": 331.33
+    },
+    {
+        "ID": 97,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 162.91
+    },
+    {
+        "ID": 98,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 17,
+        "Precio": 181.66
+    },
+    {
+        "ID": 99,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 27,
+        "Precio": 293.12
+    },
+    {
+        "ID": 100,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 12,
+        "Precio": 37.82
+    },
+    {
+        "ID": 101,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 6,
+        "Precio": 237.51
+    },
+    {
+        "ID": 102,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 5,
+        "Precio": 251.28
+    },
+    {
+        "ID": 103,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 8,
+        "Precio": 318.86
+    },
+    {
+        "ID": 104,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 5,
+        "Precio": 360.6
+    },
+    {
+        "ID": 105,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 26,
+        "Precio": 447.18
+    },
+    {
+        "ID": 106,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 32,
+        "Precio": 350.73
+    },
+    {
+        "ID": 107,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 38,
+        "Precio": 351.25
+    },
+    {
+        "ID": 108,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 34,
+        "Precio": 229.5
+    },
+    {
+        "ID": 109,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 331.7
+    },
+    {
+        "ID": 110,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 30,
+        "Precio": 128.92
+    },
+    {
+        "ID": 111,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 27,
+        "Precio": 252.68
+    },
+    {
+        "ID": 112,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 32,
+        "Precio": 47.04
+    },
+    {
+        "ID": 113,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 46,
+        "Precio": 406.84
+    },
+    {
+        "ID": 114,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 50,
+        "Precio": 114.52
+    },
+    {
+        "ID": 115,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 2,
+        "Precio": 34.85
+    },
+    {
+        "ID": 116,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 31,
+        "Precio": 31.03
+    },
+    {
+        "ID": 117,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 31,
+        "Precio": 112.24
+    },
+    {
+        "ID": 118,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 35,
+        "Precio": 190.08
+    },
+    {
+        "ID": 119,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 9,
+        "Precio": 147.83
+    },
+    {
+        "ID": 120,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 178.21
+    },
+    {
+        "ID": 121,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 8,
+        "Precio": 188.09
+    },
+    {
+        "ID": 122,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 42,
+        "Precio": 442.78
+    },
+    {
+        "ID": 123,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 28.4
+    },
+    {
+        "ID": 124,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 1,
+        "Precio": 491.17
+    },
+    {
+        "ID": 125,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 31,
+        "Precio": 174.65
+    },
+    {
+        "ID": 126,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 26,
+        "Precio": 370.06
+    },
+    {
+        "ID": 127,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 3,
+        "Precio": 244.19
+    },
+    {
+        "ID": 128,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 32,
+        "Precio": 218.85
+    },
+    {
+        "ID": 129,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 30,
+        "Precio": 273.03
+    },
+    {
+        "ID": 130,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 186.71
+    },
+    {
+        "ID": 131,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 7,
+        "Precio": 341.63
+    },
+    {
+        "ID": 132,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 43,
+        "Precio": 272.02
+    },
+    {
+        "ID": 133,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 42,
+        "Precio": 485.34
+    },
+    {
+        "ID": 134,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 23,
+        "Precio": 6.4
+    },
+    {
+        "ID": 135,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 88.5
+    },
+    {
+        "ID": 136,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 29,
+        "Precio": 151.95
+    },
+    {
+        "ID": 137,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 6,
+        "Precio": 314.8
+    },
+    {
+        "ID": 138,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 27,
+        "Precio": 490.8
+    },
+    {
+        "ID": 139,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 46,
+        "Precio": 63.76
+    },
+    {
+        "ID": 140,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 23,
+        "Precio": 142.52
+    },
+    {
+        "ID": 141,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 22,
+        "Precio": 480.85
+    },
+    {
+        "ID": 142,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 19,
+        "Precio": 74.02
+    },
+    {
+        "ID": 143,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 12,
+        "Precio": 107.46
+    },
+    {
+        "ID": 144,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 1,
+        "Precio": 182.04
+    },
+    {
+        "ID": 145,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 49,
+        "Precio": 351.57
+    },
+    {
+        "ID": 146,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 17,
+        "Precio": 124.49
+    },
+    {
+        "ID": 147,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 19,
+        "Precio": 181.57
+    },
+    {
+        "ID": 148,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 39,
+        "Precio": 377.52
+    },
+    {
+        "ID": 149,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 47,
+        "Precio": 47.71
+    },
+    {
+        "ID": 150,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 175.18
+    },
+    {
+        "ID": 151,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 23,
+        "Precio": 197.03
+    },
+    {
+        "ID": 152,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 36,
+        "Precio": 211.29
+    },
+    {
+        "ID": 153,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 1,
+        "Precio": 39.51
+    },
+    {
+        "ID": 154,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 16,
+        "Precio": 355.39
+    },
+    {
+        "ID": 155,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 36,
+        "Precio": 138.53
+    },
+    {
+        "ID": 156,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 23,
+        "Precio": 121.64
+    },
+    {
+        "ID": 157,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 110.37
+    },
+    {
+        "ID": 158,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 1,
+        "Precio": 296.7
+    },
+    {
+        "ID": 159,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 32,
+        "Precio": 424.36
+    },
+    {
+        "ID": 160,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 12,
+        "Precio": 359.91
+    },
+    {
+        "ID": 161,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 7,
+        "Precio": 408.02
+    },
+    {
+        "ID": 162,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 13,
+        "Precio": 306.97
+    },
+    {
+        "ID": 163,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 39,
+        "Precio": 144.62
+    },
+    {
+        "ID": 164,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 39,
+        "Precio": 309.28
+    },
+    {
+        "ID": 165,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 18,
+        "Precio": 291.51
+    },
+    {
+        "ID": 166,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 3,
+        "Precio": 332.38
+    },
+    {
+        "ID": 167,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 42,
+        "Precio": 206.63
+    },
+    {
+        "ID": 168,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 4,
+        "Precio": 254.47
+    },
+    {
+        "ID": 169,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 29,
+        "Precio": 393.38
+    },
+    {
+        "ID": 170,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 493.66
+    },
+    {
+        "ID": 171,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 43,
+        "Precio": 337.59
+    },
+    {
+        "ID": 172,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 40,
+        "Precio": 388.5
+    },
+    {
+        "ID": 173,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 42,
+        "Precio": 472.63
+    },
+    {
+        "ID": 174,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 29,
+        "Precio": 15.26
+    },
+    {
+        "ID": 175,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 2,
+        "Precio": 153.75
+    },
+    {
+        "ID": 176,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 34,
+        "Precio": 481.52
+    },
+    {
+        "ID": 177,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 46,
+        "Precio": 133.41
+    },
+    {
+        "ID": 178,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 10,
+        "Precio": 301.85
+    },
+    {
+        "ID": 179,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 28,
+        "Precio": 193.22
+    },
+    {
+        "ID": 180,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 22,
+        "Precio": 129.58
+    },
+    {
+        "ID": 181,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 40,
+        "Precio": 499.08
+    },
+    {
+        "ID": 182,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 48,
+        "Precio": 261.39
+    },
+    {
+        "ID": 183,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 49,
+        "Precio": 41.59
+    },
+    {
+        "ID": 184,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 16,
+        "Precio": 383.25
+    },
+    {
+        "ID": 185,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 17,
+        "Precio": 445.98
+    },
+    {
+        "ID": 186,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 49,
+        "Precio": 495.12
+    },
+    {
+        "ID": 187,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 14,
+        "Precio": 173.85
+    },
+    {
+        "ID": 188,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 15,
+        "Precio": 316.57
+    },
+    {
+        "ID": 189,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 38,
+        "Precio": 87.76
+    },
+    {
+        "ID": 190,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 28,
+        "Precio": 490.27
+    },
+    {
+        "ID": 191,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 19,
+        "Precio": 31.94
+    },
+    {
+        "ID": 192,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 12,
+        "Precio": 430.46
+    },
+    {
+        "ID": 193,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 25,
+        "Precio": 125.82
+    },
+    {
+        "ID": 194,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 18,
+        "Precio": 30.08
+    },
+    {
+        "ID": 195,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 201.1
+    },
+    {
+        "ID": 196,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 167.22
+    },
+    {
+        "ID": 197,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 6,
+        "Precio": 395.72
+    },
+    {
+        "ID": 198,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 202.83
+    },
+    {
+        "ID": 199,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 1,
+        "Precio": 165.08
+    },
+    {
+        "ID": 200,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 292.63
+    },
+    {
+        "ID": 201,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 14,
+        "Precio": 470.8
+    },
+    {
+        "ID": 202,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 4,
+        "Precio": 222.11
+    },
+    {
+        "ID": 203,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 43,
+        "Precio": 400.05
+    },
+    {
+        "ID": 204,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 25,
+        "Precio": 221.1
+    },
+    {
+        "ID": 205,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 7,
+        "Precio": 335.1
+    },
+    {
+        "ID": 206,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 23,
+        "Precio": 299.75
+    },
+    {
+        "ID": 207,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 49,
+        "Precio": 167.18
+    },
+    {
+        "ID": 208,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 49,
+        "Precio": 240.06
+    },
+    {
+        "ID": 209,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 43,
+        "Precio": 295.63
+    },
+    {
+        "ID": 210,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 169.74
+    },
+    {
+        "ID": 211,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 18,
+        "Precio": 446.85
+    },
+    {
+        "ID": 212,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 22,
+        "Precio": 66.57
+    },
+    {
+        "ID": 213,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 49,
+        "Precio": 161.14
+    },
+    {
+        "ID": 214,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 119.55
+    },
+    {
+        "ID": 215,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 5,
+        "Precio": 189.64
+    },
+    {
+        "ID": 216,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 44,
+        "Precio": 290.94
+    },
+    {
+        "ID": 217,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 3,
+        "Precio": 493.01
+    },
+    {
+        "ID": 218,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 21,
+        "Precio": 18.92
+    },
+    {
+        "ID": 219,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 24,
+        "Precio": 172.79
+    },
+    {
+        "ID": 220,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 44,
+        "Precio": 158.06
+    },
+    {
+        "ID": 221,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 10,
+        "Precio": 258.64
+    },
+    {
+        "ID": 222,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 31,
+        "Precio": 208.38
+    },
+    {
+        "ID": 223,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 3,
+        "Precio": 363.86
+    },
+    {
+        "ID": 224,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 4,
+        "Precio": 477.66
+    },
+    {
+        "ID": 225,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 10,
+        "Precio": 178.57
+    },
+    {
+        "ID": 226,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 3,
+        "Precio": 24.06
+    },
+    {
+        "ID": 227,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 302.25
+    },
+    {
+        "ID": 228,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 5,
+        "Precio": 408.78
+    },
+    {
+        "ID": 229,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 5,
+        "Precio": 166.03
+    },
+    {
+        "ID": 230,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 34,
+        "Precio": 248.48
+    },
+    {
+        "ID": 231,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 40,
+        "Precio": 144.86
+    },
+    {
+        "ID": 232,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 43,
+        "Precio": 309.36
+    },
+    {
+        "ID": 233,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 38,
+        "Precio": 356.75
+    },
+    {
+        "ID": 234,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 8,
+        "Precio": 394.68
+    },
+    {
+        "ID": 235,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 8,
+        "Precio": 260.95
+    },
+    {
+        "ID": 236,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 23,
+        "Precio": 324.15
+    },
+    {
+        "ID": 237,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 36,
+        "Precio": 257.38
+    },
+    {
+        "ID": 238,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 354.7
+    },
+    {
+        "ID": 239,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 24,
+        "Precio": 395.72
+    },
+    {
+        "ID": 240,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 32,
+        "Precio": 34.1
+    },
+    {
+        "ID": 241,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 180.97
+    },
+    {
+        "ID": 242,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 20,
+        "Precio": 232.68
+    },
+    {
+        "ID": 243,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 49,
+        "Precio": 396.44
+    },
+    {
+        "ID": 244,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 10,
+        "Precio": 282.04
+    },
+    {
+        "ID": 245,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 1,
+        "Precio": 476.44
+    },
+    {
+        "ID": 246,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 13,
+        "Precio": 304.66
+    },
+    {
+        "ID": 247,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 43,
+        "Precio": 491.45
+    },
+    {
+        "ID": 248,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 1,
+        "Precio": 240.13
+    },
+    {
+        "ID": 249,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 310.94
+    },
+    {
+        "ID": 250,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 15,
+        "Precio": 369.09
+    },
+    {
+        "ID": 251,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 7,
+        "Precio": 317.01
+    },
+    {
+        "ID": 252,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 39,
+        "Precio": 176.37
+    },
+    {
+        "ID": 253,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 41,
+        "Precio": 304.53
+    },
+    {
+        "ID": 254,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 8,
+        "Precio": 72.05
+    },
+    {
+        "ID": 255,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 435.97
+    },
+    {
+        "ID": 256,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 47,
+        "Precio": 479.56
+    },
+    {
+        "ID": 257,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 38,
+        "Precio": 107.99
+    },
+    {
+        "ID": 258,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 100.31
+    },
+    {
+        "ID": 259,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 15,
+        "Precio": 160.81
+    },
+    {
+        "ID": 260,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 31,
+        "Precio": 498.58
+    },
+    {
+        "ID": 261,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 44,
+        "Precio": 97.67
+    },
+    {
+        "ID": 262,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 23,
+        "Precio": 384.26
+    },
+    {
+        "ID": 263,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 35,
+        "Precio": 441.86
+    },
+    {
+        "ID": 264,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 12,
+        "Precio": 483.29
+    },
+    {
+        "ID": 265,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 326.51
+    },
+    {
+        "ID": 266,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 42,
+        "Precio": 323.94
+    },
+    {
+        "ID": 267,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 8,
+        "Precio": 299.47
+    },
+    {
+        "ID": 268,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 16,
+        "Precio": 132.32
+    },
+    {
+        "ID": 269,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 45,
+        "Precio": 152.87
+    },
+    {
+        "ID": 270,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 222.29
+    },
+    {
+        "ID": 271,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 1,
+        "Precio": 216.22
+    },
+    {
+        "ID": 272,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 14,
+        "Precio": 388.11
+    },
+    {
+        "ID": 273,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 15,
+        "Precio": 499.89
+    },
+    {
+        "ID": 274,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 38,
+        "Precio": 43.31
+    },
+    {
+        "ID": 275,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 46,
+        "Precio": 431.48
+    },
+    {
+        "ID": 276,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 36,
+        "Precio": 108.13
+    },
+    {
+        "ID": 277,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 23,
+        "Precio": 86.45
+    },
+    {
+        "ID": 278,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 36,
+        "Precio": 60.76
+    },
+    {
+        "ID": 279,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 17,
+        "Precio": 150.65
+    },
+    {
+        "ID": 280,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 12,
+        "Precio": 355.12
+    },
+    {
+        "ID": 281,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 39,
+        "Precio": 376.47
+    },
+    {
+        "ID": 282,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 1,
+        "Precio": 307.26
+    },
+    {
+        "ID": 283,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 39,
+        "Precio": 98.3
+    },
+    {
+        "ID": 284,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 3,
+        "Precio": 75.23
+    },
+    {
+        "ID": 285,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 34,
+        "Precio": 266.33
+    },
+    {
+        "ID": 286,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 49,
+        "Precio": 218.97
+    },
+    {
+        "ID": 287,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 1,
+        "Precio": 225.94
+    },
+    {
+        "ID": 288,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 3,
+        "Precio": 107.4
+    },
+    {
+        "ID": 289,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 34,
+        "Precio": 461.28
+    },
+    {
+        "ID": 290,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 30,
+        "Precio": 451.37
+    },
+    {
+        "ID": 291,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 31.49
+    },
+    {
+        "ID": 292,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 381.42
+    },
+    {
+        "ID": 293,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 28,
+        "Precio": 89.39
+    },
+    {
+        "ID": 294,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 8,
+        "Precio": 8.15
+    },
+    {
+        "ID": 295,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 26,
+        "Precio": 341.27
+    },
+    {
+        "ID": 296,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 20,
+        "Precio": 39.22
+    },
+    {
+        "ID": 297,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 46,
+        "Precio": 42.95
+    },
+    {
+        "ID": 298,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 40,
+        "Precio": 486.73
+    },
+    {
+        "ID": 299,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 24,
+        "Precio": 495.87
+    },
+    {
+        "ID": 300,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 12,
+        "Precio": 133.15
+    },
+    {
+        "ID": 301,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 134.39
+    },
+    {
+        "ID": 302,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 24,
+        "Precio": 103.34
+    },
+    {
+        "ID": 303,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 43,
+        "Precio": 89.95
+    },
+    {
+        "ID": 304,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 33,
+        "Precio": 193.68
+    },
+    {
+        "ID": 305,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 26,
+        "Precio": 81.56
+    },
+    {
+        "ID": 306,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 14,
+        "Precio": 167.96
+    },
+    {
+        "ID": 307,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 10,
+        "Precio": 175.6
+    },
+    {
+        "ID": 308,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 27,
+        "Precio": 98.38
+    },
+    {
+        "ID": 309,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 340.22
+    },
+    {
+        "ID": 310,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 5,
+        "Precio": 355.88
+    },
+    {
+        "ID": 311,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 41,
+        "Precio": 304.07
+    },
+    {
+        "ID": 312,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 1,
+        "Precio": 130.7
+    },
+    {
+        "ID": 313,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 24,
+        "Precio": 346.34
+    },
+    {
+        "ID": 314,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 7,
+        "Precio": 104.23
+    },
+    {
+        "ID": 315,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 16,
+        "Precio": 457.1
+    },
+    {
+        "ID": 316,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 48,
+        "Precio": 452.76
+    },
+    {
+        "ID": 317,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 39,
+        "Precio": 334.78
+    },
+    {
+        "ID": 318,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 31,
+        "Precio": 64.63
+    },
+    {
+        "ID": 319,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 24,
+        "Precio": 21.48
+    },
+    {
+        "ID": 320,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 357.06
+    },
+    {
+        "ID": 321,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 6,
+        "Precio": 35.44
+    },
+    {
+        "ID": 322,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 30,
+        "Precio": 429.43
+    },
+    {
+        "ID": 323,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 19,
+        "Precio": 34.15
+    },
+    {
+        "ID": 324,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 22,
+        "Precio": 348.4
+    },
+    {
+        "ID": 325,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 6,
+        "Precio": 295.67
+    },
+    {
+        "ID": 326,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 5,
+        "Precio": 152.94
+    },
+    {
+        "ID": 327,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 31,
+        "Precio": 348.33
+    },
+    {
+        "ID": 328,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 43,
+        "Precio": 128.36
+    },
+    {
+        "ID": 329,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 318.39
+    },
+    {
+        "ID": 330,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 462.68
+    },
+    {
+        "ID": 331,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 15,
+        "Precio": 478.69
+    },
+    {
+        "ID": 332,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 37,
+        "Precio": 297.95
+    },
+    {
+        "ID": 333,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 49.26
+    },
+    {
+        "ID": 334,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 3,
+        "Precio": 255.14
+    },
+    {
+        "ID": 335,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 30,
+        "Precio": 427.14
+    },
+    {
+        "ID": 336,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 43,
+        "Precio": 265.24
+    },
+    {
+        "ID": 337,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 15,
+        "Precio": 118.4
+    },
+    {
+        "ID": 338,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 5,
+        "Precio": 264.25
+    },
+    {
+        "ID": 339,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 32,
+        "Precio": 196.69
+    },
+    {
+        "ID": 340,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 385.16
+    },
+    {
+        "ID": 341,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 25,
+        "Precio": 206.29
+    },
+    {
+        "ID": 342,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 8,
+        "Precio": 80.78
+    },
+    {
+        "ID": 343,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 290.89
+    },
+    {
+        "ID": 344,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 18,
+        "Precio": 158.64
+    },
+    {
+        "ID": 345,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 159.47
+    },
+    {
+        "ID": 346,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 22,
+        "Precio": 206.16
+    },
+    {
+        "ID": 347,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 42,
+        "Precio": 141.63
+    },
+    {
+        "ID": 348,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 245.25
+    },
+    {
+        "ID": 349,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 17,
+        "Precio": 262.14
+    },
+    {
+        "ID": 350,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 40,
+        "Precio": 92.3
+    },
+    {
+        "ID": 351,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 10,
+        "Precio": 448.49
+    },
+    {
+        "ID": 352,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 8,
+        "Precio": 193.31
+    },
+    {
+        "ID": 353,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 28,
+        "Precio": 464.29
+    },
+    {
+        "ID": 354,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 5,
+        "Precio": 170.37
+    },
+    {
+        "ID": 355,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 26,
+        "Precio": 440.82
+    },
+    {
+        "ID": 356,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 17,
+        "Precio": 128.69
+    },
+    {
+        "ID": 357,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 23,
+        "Precio": 21.54
+    },
+    {
+        "ID": 358,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 29,
+        "Precio": 276.94
+    },
+    {
+        "ID": 359,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 26,
+        "Precio": 116.21
+    },
+    {
+        "ID": 360,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 7,
+        "Precio": 310.64
+    },
+    {
+        "ID": 361,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 10,
+        "Precio": 225.66
+    },
+    {
+        "ID": 362,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 37,
+        "Precio": 483.46
+    },
+    {
+        "ID": 363,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 35,
+        "Precio": 364.11
+    },
+    {
+        "ID": 364,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 12,
+        "Precio": 386.62
+    },
+    {
+        "ID": 365,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 22,
+        "Precio": 134.75
+    },
+    {
+        "ID": 366,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 58.1
+    },
+    {
+        "ID": 367,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 17.92
+    },
+    {
+        "ID": 368,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 9,
+        "Precio": 483.87
+    },
+    {
+        "ID": 369,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 4,
+        "Precio": 458.24
+    },
+    {
+        "ID": 370,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 48,
+        "Precio": 121.47
+    },
+    {
+        "ID": 371,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 208.72
+    },
+    {
+        "ID": 372,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 47,
+        "Precio": 56.28
+    },
+    {
+        "ID": 373,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 29,
+        "Precio": 266.22
+    },
+    {
+        "ID": 374,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 47,
+        "Precio": 410.21
+    },
+    {
+        "ID": 375,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 24,
+        "Precio": 9.33
+    },
+    {
+        "ID": 376,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 31,
+        "Precio": 191.01
+    },
+    {
+        "ID": 377,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 35,
+        "Precio": 97.8
+    },
+    {
+        "ID": 378,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 31,
+        "Precio": 403.38
+    },
+    {
+        "ID": 379,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 44,
+        "Precio": 233.95
+    },
+    {
+        "ID": 380,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 31,
+        "Precio": 409.23
+    },
+    {
+        "ID": 381,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 4,
+        "Precio": 208.6
+    },
+    {
+        "ID": 382,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 23,
+        "Precio": 370.21
+    },
+    {
+        "ID": 383,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 80.88
+    },
+    {
+        "ID": 384,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 13,
+        "Precio": 137.29
+    },
+    {
+        "ID": 385,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 48,
+        "Precio": 297.6
+    },
+    {
+        "ID": 386,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 50,
+        "Precio": 261.07
+    },
+    {
+        "ID": 387,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 7,
+        "Precio": 16.41
+    },
+    {
+        "ID": 388,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 4,
+        "Precio": 236.8
+    },
+    {
+        "ID": 389,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 22,
+        "Precio": 153.65
+    },
+    {
+        "ID": 390,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 17,
+        "Precio": 243.23
+    },
+    {
+        "ID": 391,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 20,
+        "Precio": 489.38
+    },
+    {
+        "ID": 392,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 24,
+        "Precio": 276.34
+    },
+    {
+        "ID": 393,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 16,
+        "Precio": 406.78
+    },
+    {
+        "ID": 394,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 48,
+        "Precio": 414.09
+    },
+    {
+        "ID": 395,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 26,
+        "Precio": 36.51
+    },
+    {
+        "ID": 396,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 35,
+        "Precio": 34.04
+    },
+    {
+        "ID": 397,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 39,
+        "Precio": 81.65
+    },
+    {
+        "ID": 398,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 4,
+        "Precio": 103.75
+    },
+    {
+        "ID": 399,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 15,
+        "Precio": 291.72
+    },
+    {
+        "ID": 400,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 7,
+        "Precio": 153.38
+    },
+    {
+        "ID": 401,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 44,
+        "Precio": 80.82
+    },
+    {
+        "ID": 402,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 50,
+        "Precio": 192.32
+    },
+    {
+        "ID": 403,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 3,
+        "Precio": 28.09
+    },
+    {
+        "ID": 404,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 2,
+        "Precio": 256.16
+    },
+    {
+        "ID": 405,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 1,
+        "Precio": 54.15
+    },
+    {
+        "ID": 406,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 3,
+        "Precio": 188.14
+    },
+    {
+        "ID": 407,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 34,
+        "Precio": 313.27
+    },
+    {
+        "ID": 408,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 5,
+        "Precio": 299.39
+    },
+    {
+        "ID": 409,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 32,
+        "Precio": 9.88
+    },
+    {
+        "ID": 410,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 458.69
+    },
+    {
+        "ID": 411,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 40,
+        "Precio": 365.83
+    },
+    {
+        "ID": 412,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 32,
+        "Precio": 421.71
+    },
+    {
+        "ID": 413,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 43,
+        "Precio": 435.69
+    },
+    {
+        "ID": 414,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 19,
+        "Precio": 334.05
+    },
+    {
+        "ID": 415,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 386.97
+    },
+    {
+        "ID": 416,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 46,
+        "Precio": 443.82
+    },
+    {
+        "ID": 417,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 11,
+        "Precio": 397.48
+    },
+    {
+        "ID": 418,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 39,
+        "Precio": 456.13
+    },
+    {
+        "ID": 419,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 34,
+        "Precio": 89.85
+    },
+    {
+        "ID": 420,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 46,
+        "Precio": 438.74
+    },
+    {
+        "ID": 421,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 3,
+        "Precio": 123.75
+    },
+    {
+        "ID": 422,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 1,
+        "Precio": 189.55
+    },
+    {
+        "ID": 423,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 19,
+        "Precio": 193.93
+    },
+    {
+        "ID": 424,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 37,
+        "Precio": 71.99
+    },
+    {
+        "ID": 425,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 18,
+        "Precio": 292.2
+    },
+    {
+        "ID": 426,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 17,
+        "Precio": 218.16
+    },
+    {
+        "ID": 427,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 50.01
+    },
+    {
+        "ID": 428,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 8,
+        "Precio": 362.35
+    },
+    {
+        "ID": 429,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 7,
+        "Precio": 139.39
+    },
+    {
+        "ID": 430,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 7,
+        "Precio": 293.39
+    },
+    {
+        "ID": 431,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 259.21
+    },
+    {
+        "ID": 432,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 22,
+        "Precio": 29.17
+    },
+    {
+        "ID": 433,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 26,
+        "Precio": 130.8
+    },
+    {
+        "ID": 434,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 29,
+        "Precio": 470.39
+    },
+    {
+        "ID": 435,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 29,
+        "Precio": 153.84
+    },
+    {
+        "ID": 436,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 8,
+        "Precio": 266.92
+    },
+    {
+        "ID": 437,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 48,
+        "Precio": 393.63
+    },
+    {
+        "ID": 438,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 40,
+        "Precio": 296.19
+    },
+    {
+        "ID": 439,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 44,
+        "Precio": 438.27
+    },
+    {
+        "ID": 440,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 35,
+        "Precio": 38.47
+    },
+    {
+        "ID": 441,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 11,
+        "Precio": 25.66
+    },
+    {
+        "ID": 442,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 11,
+        "Precio": 427.68
+    },
+    {
+        "ID": 443,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 19,
+        "Precio": 407.29
+    },
+    {
+        "ID": 444,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 190.39
+    },
+    {
+        "ID": 445,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 41,
+        "Precio": 406.21
+    },
+    {
+        "ID": 446,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 29,
+        "Precio": 37.46
+    },
+    {
+        "ID": 447,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 49,
+        "Precio": 97.14
+    },
+    {
+        "ID": 448,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 18,
+        "Precio": 306.68
+    },
+    {
+        "ID": 449,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 48,
+        "Precio": 425.22
+    },
+    {
+        "ID": 450,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 13,
+        "Precio": 293.87
+    },
+    {
+        "ID": 451,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 321.78
+    },
+    {
+        "ID": 452,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 342.92
+    },
+    {
+        "ID": 453,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 171.74
+    },
+    {
+        "ID": 454,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 17,
+        "Precio": 216.65
+    },
+    {
+        "ID": 455,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 141.82
+    },
+    {
+        "ID": 456,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 39,
+        "Precio": 193.28
+    },
+    {
+        "ID": 457,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 4,
+        "Precio": 416.69
+    },
+    {
+        "ID": 458,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 18,
+        "Precio": 312.62
+    },
+    {
+        "ID": 459,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 41,
+        "Precio": 261.63
+    },
+    {
+        "ID": 460,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 10,
+        "Precio": 70.1
+    },
+    {
+        "ID": 461,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 49,
+        "Precio": 341.2
+    },
+    {
+        "ID": 462,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 5,
+        "Precio": 450.01
+    },
+    {
+        "ID": 463,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 1,
+        "Precio": 288.31
+    },
+    {
+        "ID": 464,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 36,
+        "Precio": 116.6
+    },
+    {
+        "ID": 465,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 40,
+        "Precio": 219.26
+    },
+    {
+        "ID": 466,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 29,
+        "Precio": 147.22
+    },
+    {
+        "ID": 467,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 49,
+        "Precio": 375.38
+    },
+    {
+        "ID": 468,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 28,
+        "Precio": 114.57
+    },
+    {
+        "ID": 469,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 47,
+        "Precio": 283.82
+    },
+    {
+        "ID": 470,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 5,
+        "Precio": 298.82
+    },
+    {
+        "ID": 471,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 20,
+        "Precio": 338.5
+    },
+    {
+        "ID": 472,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 8,
+        "Precio": 163.4
+    },
+    {
+        "ID": 473,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 20,
+        "Precio": 240.41
+    },
+    {
+        "ID": 474,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 13,
+        "Precio": 137.04
+    },
+    {
+        "ID": 475,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 12,
+        "Precio": 447.56
+    },
+    {
+        "ID": 476,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 21,
+        "Precio": 5.89
+    },
+    {
+        "ID": 477,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 6,
+        "Precio": 406.7
+    },
+    {
+        "ID": 478,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 36,
+        "Precio": 205.84
+    },
+    {
+        "ID": 479,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 16,
+        "Precio": 24.04
+    },
+    {
+        "ID": 480,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 3,
+        "Precio": 288.44
+    },
+    {
+        "ID": 481,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 38,
+        "Precio": 182.42
+    },
+    {
+        "ID": 482,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 42,
+        "Precio": 217.87
+    },
+    {
+        "ID": 483,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 50,
+        "Precio": 432.96
+    },
+    {
+        "ID": 484,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 104.55
+    },
+    {
+        "ID": 485,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 19,
+        "Precio": 127.53
+    },
+    {
+        "ID": 486,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 22,
+        "Precio": 295.3
+    },
+    {
+        "ID": 487,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 18,
+        "Precio": 42.23
+    },
+    {
+        "ID": 488,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 7,
+        "Precio": 313.64
+    },
+    {
+        "ID": 489,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 26,
+        "Precio": 192.74
+    },
+    {
+        "ID": 490,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 5,
+        "Precio": 85.6
+    },
+    {
+        "ID": 491,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 158.58
+    },
+    {
+        "ID": 492,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 41,
+        "Precio": 87.24
+    },
+    {
+        "ID": 493,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 19,
+        "Precio": 430.78
+    },
+    {
+        "ID": 494,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 418.03
+    },
+    {
+        "ID": 495,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 26,
+        "Precio": 264.63
+    },
+    {
+        "ID": 496,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 36,
+        "Precio": 245.01
+    },
+    {
+        "ID": 497,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 7,
+        "Precio": 12.93
+    },
+    {
+        "ID": 498,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 43,
+        "Precio": 366.46
+    },
+    {
+        "ID": 499,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 2,
+        "Precio": 46.76
+    },
+    {
+        "ID": 500,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 22,
+        "Precio": 255.85
+    },
+    {
+        "ID": 501,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 13,
+        "Precio": 33.2
+    },
+    {
+        "ID": 502,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 14,
+        "Precio": 277.58
+    },
+    {
+        "ID": 503,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 32,
+        "Precio": 66.53
+    },
+    {
+        "ID": 504,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 297.38
+    },
+    {
+        "ID": 505,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 10,
+        "Precio": 283.17
+    },
+    {
+        "ID": 506,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 18,
+        "Precio": 442.22
+    },
+    {
+        "ID": 507,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 5,
+        "Precio": 211.84
+    },
+    {
+        "ID": 508,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 8,
+        "Precio": 491.22
+    },
+    {
+        "ID": 509,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 286.37
+    },
+    {
+        "ID": 510,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 28,
+        "Precio": 400.66
+    },
+    {
+        "ID": 511,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 435.43
+    },
+    {
+        "ID": 512,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 11,
+        "Precio": 33.19
+    },
+    {
+        "ID": 513,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 24,
+        "Precio": 132.73
+    },
+    {
+        "ID": 514,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 16,
+        "Precio": 190.96
+    },
+    {
+        "ID": 515,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 23,
+        "Precio": 95.96
+    },
+    {
+        "ID": 516,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 3,
+        "Precio": 46.86
+    },
+    {
+        "ID": 517,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 30,
+        "Precio": 7.96
+    },
+    {
+        "ID": 518,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 202.1
+    },
+    {
+        "ID": 519,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 26,
+        "Precio": 82.48
+    },
+    {
+        "ID": 520,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 32,
+        "Precio": 353.69
+    },
+    {
+        "ID": 521,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 20,
+        "Precio": 332.04
+    },
+    {
+        "ID": 522,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 8,
+        "Precio": 115.25
+    },
+    {
+        "ID": 523,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 8,
+        "Precio": 208.32
+    },
+    {
+        "ID": 524,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 437.17
+    },
+    {
+        "ID": 525,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 8,
+        "Precio": 121.76
+    },
+    {
+        "ID": 526,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 25,
+        "Precio": 132.45
+    },
+    {
+        "ID": 527,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 488.57
+    },
+    {
+        "ID": 528,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 16,
+        "Precio": 277.81
+    },
+    {
+        "ID": 529,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 45,
+        "Precio": 332.58
+    },
+    {
+        "ID": 530,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 41,
+        "Precio": 32.72
+    },
+    {
+        "ID": 531,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 26,
+        "Precio": 459.07
+    },
+    {
+        "ID": 532,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 1,
+        "Precio": 428.82
+    },
+    {
+        "ID": 533,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 36,
+        "Precio": 16.22
+    },
+    {
+        "ID": 534,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 20,
+        "Precio": 374.41
+    },
+    {
+        "ID": 535,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 323.93
+    },
+    {
+        "ID": 536,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 8,
+        "Precio": 268.97
+    },
+    {
+        "ID": 537,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 17,
+        "Precio": 466.0
+    },
+    {
+        "ID": 538,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 9,
+        "Precio": 124.91
+    },
+    {
+        "ID": 539,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 16,
+        "Precio": 229.54
+    },
+    {
+        "ID": 540,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 13,
+        "Precio": 229.47
+    },
+    {
+        "ID": 541,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 43,
+        "Precio": 315.16
+    },
+    {
+        "ID": 542,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 19,
+        "Precio": 134.27
+    },
+    {
+        "ID": 543,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 82.36
+    },
+    {
+        "ID": 544,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 39,
+        "Precio": 78.86
+    },
+    {
+        "ID": 545,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 11,
+        "Precio": 84.52
+    },
+    {
+        "ID": 546,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 3,
+        "Precio": 232.41
+    },
+    {
+        "ID": 547,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 44,
+        "Precio": 308.64
+    },
+    {
+        "ID": 548,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 34,
+        "Precio": 325.86
+    },
+    {
+        "ID": 549,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 37,
+        "Precio": 241.0
+    },
+    {
+        "ID": 550,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 44,
+        "Precio": 64.43
+    },
+    {
+        "ID": 551,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 24,
+        "Precio": 103.5
+    },
+    {
+        "ID": 552,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 21,
+        "Precio": 210.86
+    },
+    {
+        "ID": 553,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 25,
+        "Precio": 241.01
+    },
+    {
+        "ID": 554,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 10,
+        "Precio": 79.3
+    },
+    {
+        "ID": 555,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 4,
+        "Precio": 233.65
+    },
+    {
+        "ID": 556,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 17,
+        "Precio": 21.74
+    },
+    {
+        "ID": 557,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 12,
+        "Precio": 72.27
+    },
+    {
+        "ID": 558,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 28,
+        "Precio": 370.53
+    },
+    {
+        "ID": 559,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 44,
+        "Precio": 222.55
+    },
+    {
+        "ID": 560,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 466.15
+    },
+    {
+        "ID": 561,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 38,
+        "Precio": 12.31
+    },
+    {
+        "ID": 562,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 33,
+        "Precio": 70.18
+    },
+    {
+        "ID": 563,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 10,
+        "Precio": 299.03
+    },
+    {
+        "ID": 564,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 44,
+        "Precio": 499.76
+    },
+    {
+        "ID": 565,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 296.05
+    },
+    {
+        "ID": 566,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 44,
+        "Precio": 472.77
+    },
+    {
+        "ID": 567,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 15,
+        "Precio": 120.85
+    },
+    {
+        "ID": 568,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 8,
+        "Precio": 469.76
+    },
+    {
+        "ID": 569,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 24,
+        "Precio": 134.13
+    },
+    {
+        "ID": 570,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 8,
+        "Precio": 119.98
+    },
+    {
+        "ID": 571,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 16,
+        "Precio": 241.59
+    },
+    {
+        "ID": 572,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 42,
+        "Precio": 60.79
+    },
+    {
+        "ID": 573,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 18,
+        "Precio": 487.88
+    },
+    {
+        "ID": 574,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 351.08
+    },
+    {
+        "ID": 575,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 218.84
+    },
+    {
+        "ID": 576,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 21,
+        "Precio": 252.18
+    },
+    {
+        "ID": 577,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 21,
+        "Precio": 296.4
+    },
+    {
+        "ID": 578,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 16,
+        "Precio": 64.48
+    },
+    {
+        "ID": 579,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 33,
+        "Precio": 126.58
+    },
+    {
+        "ID": 580,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 19,
+        "Precio": 204.75
+    },
+    {
+        "ID": 581,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 10,
+        "Precio": 474.82
+    },
+    {
+        "ID": 582,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 10,
+        "Precio": 367.56
+    },
+    {
+        "ID": 583,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 181.78
+    },
+    {
+        "ID": 584,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 18,
+        "Precio": 215.52
+    },
+    {
+        "ID": 585,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 9,
+        "Precio": 270.81
+    },
+    {
+        "ID": 586,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 19,
+        "Precio": 386.43
+    },
+    {
+        "ID": 587,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 44,
+        "Precio": 173.99
+    },
+    {
+        "ID": 588,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 16,
+        "Precio": 28.52
+    },
+    {
+        "ID": 589,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 245.66
+    },
+    {
+        "ID": 590,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 133.14
+    },
+    {
+        "ID": 591,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 10,
+        "Precio": 202.34
+    },
+    {
+        "ID": 592,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 14,
+        "Precio": 402.67
+    },
+    {
+        "ID": 593,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 48,
+        "Precio": 154.65
+    },
+    {
+        "ID": 594,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 7,
+        "Precio": 224.35
+    },
+    {
+        "ID": 595,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 47,
+        "Precio": 61.11
+    },
+    {
+        "ID": 596,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 188.92
+    },
+    {
+        "ID": 597,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 46,
+        "Precio": 342.66
+    },
+    {
+        "ID": 598,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 45,
+        "Precio": 198.84
+    },
+    {
+        "ID": 599,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 5,
+        "Precio": 496.05
+    },
+    {
+        "ID": 600,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 8,
+        "Precio": 81.59
+    },
+    {
+        "ID": 601,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 10,
+        "Precio": 432.28
+    },
+    {
+        "ID": 602,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 46,
+        "Precio": 254.03
+    },
+    {
+        "ID": 603,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 21,
+        "Precio": 452.35
+    },
+    {
+        "ID": 604,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 19,
+        "Precio": 446.37
+    },
+    {
+        "ID": 605,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 14,
+        "Precio": 59.91
+    },
+    {
+        "ID": 606,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 43,
+        "Precio": 453.33
+    },
+    {
+        "ID": 607,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 33,
+        "Precio": 90.78
+    },
+    {
+        "ID": 608,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 1,
+        "Precio": 313.92
+    },
+    {
+        "ID": 609,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 3,
+        "Precio": 454.71
+    },
+    {
+        "ID": 610,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 30,
+        "Precio": 209.05
+    },
+    {
+        "ID": 611,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 12,
+        "Precio": 197.93
+    },
+    {
+        "ID": 612,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 41,
+        "Precio": 249.04
+    },
+    {
+        "ID": 613,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 20,
+        "Precio": 149.44
+    },
+    {
+        "ID": 614,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 32,
+        "Precio": 194.76
+    },
+    {
+        "ID": 615,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 31,
+        "Precio": 162.64
+    },
+    {
+        "ID": 616,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 43,
+        "Precio": 392.7
+    },
+    {
+        "ID": 617,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 29,
+        "Precio": 263.97
+    },
+    {
+        "ID": 618,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 407.44
+    },
+    {
+        "ID": 619,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 11,
+        "Precio": 410.56
+    },
+    {
+        "ID": 620,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 21,
+        "Precio": 348.44
+    },
+    {
+        "ID": 621,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 7,
+        "Precio": 343.27
+    },
+    {
+        "ID": 622,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 47,
+        "Precio": 37.55
+    },
+    {
+        "ID": 623,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 36,
+        "Precio": 487.34
+    },
+    {
+        "ID": 624,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 8,
+        "Precio": 153.34
+    },
+    {
+        "ID": 625,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 31,
+        "Precio": 230.43
+    },
+    {
+        "ID": 626,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 23,
+        "Precio": 402.42
+    },
+    {
+        "ID": 627,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 32,
+        "Precio": 377.91
+    },
+    {
+        "ID": 628,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 39,
+        "Precio": 70.66
+    },
+    {
+        "ID": 629,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 32,
+        "Precio": 476.21
+    },
+    {
+        "ID": 630,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 15,
+        "Precio": 68.99
+    },
+    {
+        "ID": 631,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 13,
+        "Precio": 132.94
+    },
+    {
+        "ID": 632,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 4,
+        "Precio": 310.55
+    },
+    {
+        "ID": 633,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 39,
+        "Precio": 196.17
+    },
+    {
+        "ID": 634,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 44,
+        "Precio": 148.89
+    },
+    {
+        "ID": 635,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 19,
+        "Precio": 257.56
+    },
+    {
+        "ID": 636,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 15,
+        "Precio": 183.97
+    },
+    {
+        "ID": 637,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 1,
+        "Precio": 175.39
+    },
+    {
+        "ID": 638,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 47,
+        "Precio": 93.04
+    },
+    {
+        "ID": 639,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 352.78
+    },
+    {
+        "ID": 640,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 25,
+        "Precio": 164.31
+    },
+    {
+        "ID": 641,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 44,
+        "Precio": 80.9
+    },
+    {
+        "ID": 642,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 39,
+        "Precio": 496.62
+    },
+    {
+        "ID": 643,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 37,
+        "Precio": 249.9
+    },
+    {
+        "ID": 644,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 42,
+        "Precio": 74.75
+    },
+    {
+        "ID": 645,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 33,
+        "Precio": 379.16
+    },
+    {
+        "ID": 646,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 6,
+        "Precio": 224.31
+    },
+    {
+        "ID": 647,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 345.52
+    },
+    {
+        "ID": 648,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 50,
+        "Precio": 255.27
+    },
+    {
+        "ID": 649,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 7,
+        "Precio": 167.14
+    },
+    {
+        "ID": 650,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 20,
+        "Precio": 394.6
+    },
+    {
+        "ID": 651,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 49,
+        "Precio": 38.64
+    },
+    {
+        "ID": 652,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 32,
+        "Precio": 78.69
+    },
+    {
+        "ID": 653,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 28,
+        "Precio": 26.79
+    },
+    {
+        "ID": 654,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 11,
+        "Precio": 47.03
+    },
+    {
+        "ID": 655,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 13,
+        "Precio": 218.77
+    },
+    {
+        "ID": 656,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 26,
+        "Precio": 42.42
+    },
+    {
+        "ID": 657,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 11,
+        "Precio": 392.61
+    },
+    {
+        "ID": 658,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 49,
+        "Precio": 426.93
+    },
+    {
+        "ID": 659,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 255.33
+    },
+    {
+        "ID": 660,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 16,
+        "Precio": 423.08
+    },
+    {
+        "ID": 661,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 40,
+        "Precio": 239.82
+    },
+    {
+        "ID": 662,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 50,
+        "Precio": 183.76
+    },
+    {
+        "ID": 663,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 7,
+        "Precio": 228.19
+    },
+    {
+        "ID": 664,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 50,
+        "Precio": 90.97
+    },
+    {
+        "ID": 665,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 19,
+        "Precio": 151.67
+    },
+    {
+        "ID": 666,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 12,
+        "Precio": 349.64
+    },
+    {
+        "ID": 667,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 44,
+        "Precio": 127.33
+    },
+    {
+        "ID": 668,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 36,
+        "Precio": 311.8
+    },
+    {
+        "ID": 669,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 33,
+        "Precio": 77.46
+    },
+    {
+        "ID": 670,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 50,
+        "Precio": 462.48
+    },
+    {
+        "ID": 671,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 140.53
+    },
+    {
+        "ID": 672,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 289.77
+    },
+    {
+        "ID": 673,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 35,
+        "Precio": 473.64
+    },
+    {
+        "ID": 674,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 19,
+        "Precio": 218.86
+    },
+    {
+        "ID": 675,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 31.05
+    },
+    {
+        "ID": 676,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 29,
+        "Precio": 104.47
+    },
+    {
+        "ID": 677,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 30,
+        "Precio": 230.0
+    },
+    {
+        "ID": 678,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 44,
+        "Precio": 132.61
+    },
+    {
+        "ID": 679,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 23,
+        "Precio": 168.92
+    },
+    {
+        "ID": 680,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 20,
+        "Precio": 454.04
+    },
+    {
+        "ID": 681,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 20,
+        "Precio": 137.68
+    },
+    {
+        "ID": 682,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 23,
+        "Precio": 283.09
+    },
+    {
+        "ID": 683,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 14,
+        "Precio": 76.37
+    },
+    {
+        "ID": 684,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 15,
+        "Precio": 118.12
+    },
+    {
+        "ID": 685,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 14,
+        "Precio": 303.81
+    },
+    {
+        "ID": 686,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 299.75
+    },
+    {
+        "ID": 687,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 19,
+        "Precio": 169.69
+    },
+    {
+        "ID": 688,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 42,
+        "Precio": 230.86
+    },
+    {
+        "ID": 689,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 14,
+        "Precio": 422.87
+    },
+    {
+        "ID": 690,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 40,
+        "Precio": 334.82
+    },
+    {
+        "ID": 691,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 18,
+        "Precio": 378.13
+    },
+    {
+        "ID": 692,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 66.65
+    },
+    {
+        "ID": 693,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 49,
+        "Precio": 21.59
+    },
+    {
+        "ID": 694,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 10,
+        "Precio": 369.54
+    },
+    {
+        "ID": 695,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 37,
+        "Precio": 163.74
+    },
+    {
+        "ID": 696,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 4,
+        "Precio": 284.37
+    },
+    {
+        "ID": 697,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 178.81
+    },
+    {
+        "ID": 698,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 498.98
+    },
+    {
+        "ID": 699,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 33,
+        "Precio": 269.77
+    },
+    {
+        "ID": 700,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 49,
+        "Precio": 22.92
+    },
+    {
+        "ID": 701,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 46,
+        "Precio": 199.64
+    },
+    {
+        "ID": 702,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 50,
+        "Precio": 272.81
+    },
+    {
+        "ID": 703,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 28,
+        "Precio": 279.59
+    },
+    {
+        "ID": 704,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 18,
+        "Precio": 202.42
+    },
+    {
+        "ID": 705,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 4,
+        "Precio": 260.97
+    },
+    {
+        "ID": 706,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 229.75
+    },
+    {
+        "ID": 707,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 42,
+        "Precio": 92.51
+    },
+    {
+        "ID": 708,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 32,
+        "Precio": 133.0
+    },
+    {
+        "ID": 709,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 41,
+        "Precio": 449.01
+    },
+    {
+        "ID": 710,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 8,
+        "Precio": 107.22
+    },
+    {
+        "ID": 711,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 39,
+        "Precio": 117.66
+    },
+    {
+        "ID": 712,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 134.2
+    },
+    {
+        "ID": 713,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 4,
+        "Precio": 474.47
+    },
+    {
+        "ID": 714,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 31,
+        "Precio": 460.34
+    },
+    {
+        "ID": 715,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 44,
+        "Precio": 429.98
+    },
+    {
+        "ID": 716,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 37,
+        "Precio": 74.69
+    },
+    {
+        "ID": 717,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 39,
+        "Precio": 361.3
+    },
+    {
+        "ID": 718,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 39,
+        "Precio": 166.8
+    },
+    {
+        "ID": 719,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 38,
+        "Precio": 322.19
+    },
+    {
+        "ID": 720,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 5,
+        "Precio": 107.47
+    },
+    {
+        "ID": 721,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 20,
+        "Precio": 243.29
+    },
+    {
+        "ID": 722,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 41,
+        "Precio": 427.42
+    },
+    {
+        "ID": 723,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 15,
+        "Precio": 210.1
+    },
+    {
+        "ID": 724,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 22,
+        "Precio": 326.95
+    },
+    {
+        "ID": 725,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 23,
+        "Precio": 477.01
+    },
+    {
+        "ID": 726,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 47,
+        "Precio": 127.12
+    },
+    {
+        "ID": 727,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 17,
+        "Precio": 80.49
+    },
+    {
+        "ID": 728,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 34,
+        "Precio": 494.93
+    },
+    {
+        "ID": 729,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 41,
+        "Precio": 397.83
+    },
+    {
+        "ID": 730,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 9,
+        "Precio": 214.92
+    },
+    {
+        "ID": 731,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 42,
+        "Precio": 453.75
+    },
+    {
+        "ID": 732,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 44,
+        "Precio": 451.11
+    },
+    {
+        "ID": 733,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 4,
+        "Precio": 110.3
+    },
+    {
+        "ID": 734,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 41,
+        "Precio": 110.25
+    },
+    {
+        "ID": 735,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 14,
+        "Precio": 267.27
+    },
+    {
+        "ID": 736,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 44,
+        "Precio": 303.03
+    },
+    {
+        "ID": 737,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 40,
+        "Precio": 185.55
+    },
+    {
+        "ID": 738,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 28,
+        "Precio": 466.78
+    },
+    {
+        "ID": 739,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 50,
+        "Precio": 24.97
+    },
+    {
+        "ID": 740,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 31,
+        "Precio": 280.3
+    },
+    {
+        "ID": 741,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 22,
+        "Precio": 477.13
+    },
+    {
+        "ID": 742,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 11,
+        "Precio": 176.9
+    },
+    {
+        "ID": 743,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 7,
+        "Precio": 20.2
+    },
+    {
+        "ID": 744,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 31,
+        "Precio": 262.36
+    },
+    {
+        "ID": 745,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 30,
+        "Precio": 69.1
+    },
+    {
+        "ID": 746,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 29,
+        "Precio": 354.28
+    },
+    {
+        "ID": 747,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 40,
+        "Precio": 344.24
+    },
+    {
+        "ID": 748,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 35,
+        "Precio": 218.22
+    },
+    {
+        "ID": 749,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 30,
+        "Precio": 242.07
+    },
+    {
+        "ID": 750,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 19,
+        "Precio": 39.01
+    },
+    {
+        "ID": 751,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 203.7
+    },
+    {
+        "ID": 752,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 27,
+        "Precio": 155.11
+    },
+    {
+        "ID": 753,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 217.57
+    },
+    {
+        "ID": 754,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 34,
+        "Precio": 289.89
+    },
+    {
+        "ID": 755,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 19,
+        "Precio": 27.24
+    },
+    {
+        "ID": 756,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 21,
+        "Precio": 451.03
+    },
+    {
+        "ID": 757,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 16,
+        "Precio": 212.0
+    },
+    {
+        "ID": 758,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 305.95
+    },
+    {
+        "ID": 759,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 48,
+        "Precio": 125.66
+    },
+    {
+        "ID": 760,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 48,
+        "Precio": 353.29
+    },
+    {
+        "ID": 761,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 15,
+        "Precio": 317.51
+    },
+    {
+        "ID": 762,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 12,
+        "Precio": 499.0
+    },
+    {
+        "ID": 763,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 8,
+        "Precio": 214.32
+    },
+    {
+        "ID": 764,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 6,
+        "Precio": 174.49
+    },
+    {
+        "ID": 765,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 24,
+        "Precio": 163.67
+    },
+    {
+        "ID": 766,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 15,
+        "Precio": 145.42
+    },
+    {
+        "ID": 767,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 16,
+        "Precio": 81.15
+    },
+    {
+        "ID": 768,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 473.54
+    },
+    {
+        "ID": 769,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 40,
+        "Precio": 88.38
+    },
+    {
+        "ID": 770,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 17,
+        "Precio": 494.52
+    },
+    {
+        "ID": 771,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 1,
+        "Precio": 388.1
+    },
+    {
+        "ID": 772,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 46,
+        "Precio": 235.64
+    },
+    {
+        "ID": 773,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 43,
+        "Precio": 44.4
+    },
+    {
+        "ID": 774,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 30,
+        "Precio": 441.64
+    },
+    {
+        "ID": 775,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 18,
+        "Precio": 65.9
+    },
+    {
+        "ID": 776,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 27,
+        "Precio": 82.9
+    },
+    {
+        "ID": 777,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 34,
+        "Precio": 96.69
+    },
+    {
+        "ID": 778,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 14,
+        "Precio": 81.79
+    },
+    {
+        "ID": 779,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 38,
+        "Precio": 484.25
+    },
+    {
+        "ID": 780,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 47,
+        "Precio": 66.14
+    },
+    {
+        "ID": 781,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 3,
+        "Precio": 320.99
+    },
+    {
+        "ID": 782,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 50,
+        "Precio": 396.14
+    },
+    {
+        "ID": 783,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 8,
+        "Precio": 191.81
+    },
+    {
+        "ID": 784,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 41,
+        "Precio": 320.97
+    },
+    {
+        "ID": 785,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 15,
+        "Precio": 270.86
+    },
+    {
+        "ID": 786,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 32,
+        "Precio": 410.87
+    },
+    {
+        "ID": 787,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 251.01
+    },
+    {
+        "ID": 788,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 498.56
+    },
+    {
+        "ID": 789,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 31,
+        "Precio": 118.37
+    },
+    {
+        "ID": 790,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 49,
+        "Precio": 233.23
+    },
+    {
+        "ID": 791,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 412.75
+    },
+    {
+        "ID": 792,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 401.54
+    },
+    {
+        "ID": 793,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 33,
+        "Precio": 457.93
+    },
+    {
+        "ID": 794,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 20,
+        "Precio": 472.2
+    },
+    {
+        "ID": 795,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 41,
+        "Precio": 429.11
+    },
+    {
+        "ID": 796,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 39,
+        "Precio": 315.69
+    },
+    {
+        "ID": 797,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 39,
+        "Precio": 179.9
+    },
+    {
+        "ID": 798,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 370.89
+    },
+    {
+        "ID": 799,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 45,
+        "Precio": 313.86
+    },
+    {
+        "ID": 800,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 39,
+        "Precio": 185.84
+    },
+    {
+        "ID": 801,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 7,
+        "Precio": 249.26
+    },
+    {
+        "ID": 802,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 13,
+        "Precio": 128.72
+    },
+    {
+        "ID": 803,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 15,
+        "Precio": 204.39
+    },
+    {
+        "ID": 804,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 12,
+        "Precio": 42.07
+    },
+    {
+        "ID": 805,
+        "Nombre": "Cámara web HD",
+        "Categoría": "Computación",
+        "Cantidad": 44,
+        "Precio": 232.37
+    },
+    {
+        "ID": 806,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 48,
+        "Precio": 109.11
+    },
+    {
+        "ID": 807,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 24,
+        "Precio": 229.39
+    },
+    {
+        "ID": 808,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 41,
+        "Precio": 401.8
+    },
+    {
+        "ID": 809,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 5,
+        "Precio": 364.96
+    },
+    {
+        "ID": 810,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 39,
+        "Precio": 235.16
+    },
+    {
+        "ID": 811,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 29,
+        "Precio": 337.96
+    },
+    {
+        "ID": 812,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 41,
+        "Precio": 259.04
+    },
+    {
+        "ID": 813,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 25,
+        "Precio": 47.38
+    },
+    {
+        "ID": 814,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 4,
+        "Precio": 119.6
+    },
+    {
+        "ID": 815,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 16,
+        "Precio": 94.1
+    },
+    {
+        "ID": 816,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 44,
+        "Precio": 417.85
+    },
+    {
+        "ID": 817,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 20,
+        "Precio": 285.0
+    },
+    {
+        "ID": 818,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 48,
+        "Precio": 453.42
+    },
+    {
+        "ID": 819,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 46,
+        "Precio": 44.63
+    },
+    {
+        "ID": 820,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 15,
+        "Precio": 216.32
+    },
+    {
+        "ID": 821,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 50,
+        "Precio": 164.99
+    },
+    {
+        "ID": 822,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 27,
+        "Precio": 58.6
+    },
+    {
+        "ID": 823,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 31,
+        "Precio": 140.8
+    },
+    {
+        "ID": 824,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 2,
+        "Precio": 351.68
+    },
+    {
+        "ID": 825,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 18,
+        "Precio": 304.21
+    },
+    {
+        "ID": 826,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 362.99
+    },
+    {
+        "ID": 827,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 46,
+        "Precio": 358.84
+    },
+    {
+        "ID": 828,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 33,
+        "Precio": 354.47
+    },
+    {
+        "ID": 829,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 132.21
+    },
+    {
+        "ID": 830,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 152.38
+    },
+    {
+        "ID": 831,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 30,
+        "Precio": 203.06
+    },
+    {
+        "ID": 832,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 20,
+        "Precio": 464.27
+    },
+    {
+        "ID": 833,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 490.33
+    },
+    {
+        "ID": 834,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 1,
+        "Precio": 106.18
+    },
+    {
+        "ID": 835,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 46,
+        "Precio": 326.8
+    },
+    {
+        "ID": 836,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 13,
+        "Precio": 476.27
+    },
+    {
+        "ID": 837,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 11,
+        "Precio": 77.21
+    },
+    {
+        "ID": 838,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 13,
+        "Precio": 190.98
+    },
+    {
+        "ID": 839,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 25,
+        "Precio": 309.09
+    },
+    {
+        "ID": 840,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 25,
+        "Precio": 26.72
+    },
+    {
+        "ID": 841,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 21,
+        "Precio": 387.84
+    },
+    {
+        "ID": 842,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 25,
+        "Precio": 198.33
+    },
+    {
+        "ID": 843,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 25,
+        "Precio": 383.56
+    },
+    {
+        "ID": 844,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 10,
+        "Precio": 346.49
+    },
+    {
+        "ID": 845,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 272.25
+    },
+    {
+        "ID": 846,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 3,
+        "Precio": 87.03
+    },
+    {
+        "ID": 847,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 47,
+        "Precio": 306.13
+    },
+    {
+        "ID": 848,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 50,
+        "Precio": 498.37
+    },
+    {
+        "ID": 849,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 20,
+        "Precio": 150.61
+    },
+    {
+        "ID": 850,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 35,
+        "Precio": 211.11
+    },
+    {
+        "ID": 851,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 28,
+        "Precio": 460.85
+    },
+    {
+        "ID": 852,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 27,
+        "Precio": 219.74
+    },
+    {
+        "ID": 853,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 12,
+        "Precio": 106.9
+    },
+    {
+        "ID": 854,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 44,
+        "Precio": 58.8
+    },
+    {
+        "ID": 855,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 50,
+        "Precio": 39.29
+    },
+    {
+        "ID": 856,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 35,
+        "Precio": 176.19
+    },
+    {
+        "ID": 857,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 23,
+        "Precio": 239.57
+    },
+    {
+        "ID": 858,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 30,
+        "Precio": 361.36
+    },
+    {
+        "ID": 859,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 16,
+        "Precio": 93.85
+    },
+    {
+        "ID": 860,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 190.28
+    },
+    {
+        "ID": 861,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 12,
+        "Precio": 353.72
+    },
+    {
+        "ID": 862,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 15,
+        "Precio": 499.02
+    },
+    {
+        "ID": 863,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 2,
+        "Precio": 496.13
+    },
+    {
+        "ID": 864,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 45,
+        "Precio": 74.25
+    },
+    {
+        "ID": 865,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 24,
+        "Precio": 247.18
+    },
+    {
+        "ID": 866,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 50.29
+    },
+    {
+        "ID": 867,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 23,
+        "Precio": 403.53
+    },
+    {
+        "ID": 868,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 35,
+        "Precio": 251.59
+    },
+    {
+        "ID": 869,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 37,
+        "Precio": 499.4
+    },
+    {
+        "ID": 870,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 24,
+        "Precio": 49.0
+    },
+    {
+        "ID": 871,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 33,
+        "Precio": 160.08
+    },
+    {
+        "ID": 872,
+        "Nombre": "Teclado RGB mecánico",
+        "Categoría": "Gaming",
+        "Cantidad": 3,
+        "Precio": 189.55
+    },
+    {
+        "ID": 873,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 16,
+        "Precio": 223.0
+    },
+    {
+        "ID": 874,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 7,
+        "Precio": 102.2
+    },
+    {
+        "ID": 875,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 306.99
+    },
+    {
+        "ID": 876,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 33,
+        "Precio": 421.28
+    },
+    {
+        "ID": 877,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 28,
+        "Precio": 465.13
+    },
+    {
+        "ID": 878,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 30,
+        "Precio": 226.39
+    },
+    {
+        "ID": 879,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 34,
+        "Precio": 267.3
+    },
+    {
+        "ID": 880,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 49,
+        "Precio": 106.48
+    },
+    {
+        "ID": 881,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 42,
+        "Precio": 456.04
+    },
+    {
+        "ID": 882,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 365.6
+    },
+    {
+        "ID": 883,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 3,
+        "Precio": 12.82
+    },
+    {
+        "ID": 884,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 6,
+        "Precio": 416.32
+    },
+    {
+        "ID": 885,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 39,
+        "Precio": 125.67
+    },
+    {
+        "ID": 886,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 40,
+        "Precio": 380.05
+    },
+    {
+        "ID": 887,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 50,
+        "Precio": 154.23
+    },
+    {
+        "ID": 888,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 20,
+        "Precio": 188.84
+    },
+    {
+        "ID": 889,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 21,
+        "Precio": 221.34
+    },
+    {
+        "ID": 890,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 26,
+        "Precio": 12.83
+    },
+    {
+        "ID": 891,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 32,
+        "Precio": 416.69
+    },
+    {
+        "ID": 892,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 48,
+        "Precio": 356.5
+    },
+    {
+        "ID": 893,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 32,
+        "Precio": 386.96
+    },
+    {
+        "ID": 894,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 17,
+        "Precio": 73.36
+    },
+    {
+        "ID": 895,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 26,
+        "Precio": 462.74
+    },
+    {
+        "ID": 896,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 386.79
+    },
+    {
+        "ID": 897,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 11,
+        "Precio": 365.77
+    },
+    {
+        "ID": 898,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 34,
+        "Precio": 237.12
+    },
+    {
+        "ID": 899,
+        "Nombre": "Gamepad para PC",
+        "Categoría": "Gaming",
+        "Cantidad": 16,
+        "Precio": 397.11
+    },
+    {
+        "ID": 900,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 43,
+        "Precio": 173.75
+    },
+    {
+        "ID": 901,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 20,
+        "Precio": 217.14
+    },
+    {
+        "ID": 902,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 45,
+        "Precio": 70.3
+    },
+    {
+        "ID": 903,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 38,
+        "Precio": 332.05
+    },
+    {
+        "ID": 904,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 36,
+        "Precio": 486.22
+    },
+    {
+        "ID": 905,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 32,
+        "Precio": 87.66
+    },
+    {
+        "ID": 906,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 4,
+        "Precio": 82.71
+    },
+    {
+        "ID": 907,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 32,
+        "Precio": 9.52
+    },
+    {
+        "ID": 908,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 367.11
+    },
+    {
+        "ID": 909,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 32,
+        "Precio": 103.62
+    },
+    {
+        "ID": 910,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 1,
+        "Precio": 65.06
+    },
+    {
+        "ID": 911,
+        "Nombre": "Laptop Dell Inspiron",
+        "Categoría": "Computación",
+        "Cantidad": 14,
+        "Precio": 193.41
+    },
+    {
+        "ID": 912,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 23,
+        "Precio": 377.91
+    },
+    {
+        "ID": 913,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 45,
+        "Precio": 55.66
+    },
+    {
+        "ID": 914,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 32,
+        "Precio": 122.88
+    },
+    {
+        "ID": 915,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 31,
+        "Precio": 232.27
+    },
+    {
+        "ID": 916,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 17,
+        "Precio": 122.96
+    },
+    {
+        "ID": 917,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 19,
+        "Precio": 265.75
+    },
+    {
+        "ID": 918,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 23,
+        "Precio": 174.94
+    },
+    {
+        "ID": 919,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 496.09
+    },
+    {
+        "ID": 920,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 34,
+        "Precio": 70.08
+    },
+    {
+        "ID": 921,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 26,
+        "Precio": 187.37
+    },
+    {
+        "ID": 922,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 24,
+        "Precio": 47.84
+    },
+    {
+        "ID": 923,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 34,
+        "Precio": 449.31
+    },
+    {
+        "ID": 924,
+        "Nombre": "Control de Xbox",
+        "Categoría": "Gaming",
+        "Cantidad": 4,
+        "Precio": 308.69
+    },
+    {
+        "ID": 925,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 39,
+        "Precio": 411.2
+    },
+    {
+        "ID": 926,
+        "Nombre": "Impresora multifunción",
+        "Categoría": "Computación",
+        "Cantidad": 5,
+        "Precio": 61.0
+    },
+    {
+        "ID": 927,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 47,
+        "Precio": 6.47
+    },
+    {
+        "ID": 928,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 11,
+        "Precio": 155.13
+    },
+    {
+        "ID": 929,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 359.67
+    },
+    {
+        "ID": 930,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 48,
+        "Precio": 303.36
+    },
+    {
+        "ID": 931,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 30,
+        "Precio": 255.95
+    },
+    {
+        "ID": 932,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 35,
+        "Precio": 318.98
+    },
+    {
+        "ID": 933,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 343.84
+    },
+    {
+        "ID": 934,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 342.16
+    },
+    {
+        "ID": 935,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 25,
+        "Precio": 195.62
+    },
+    {
+        "ID": 936,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 456.36
+    },
+    {
+        "ID": 937,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 48,
+        "Precio": 79.37
+    },
+    {
+        "ID": 938,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 8,
+        "Precio": 258.36
+    },
+    {
+        "ID": 939,
+        "Nombre": "Disco SSD 500GB",
+        "Categoría": "Computación",
+        "Cantidad": 39,
+        "Precio": 423.59
+    },
+    {
+        "ID": 940,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 3,
+        "Precio": 495.89
+    },
+    {
+        "ID": 941,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 46,
+        "Precio": 453.38
+    },
+    {
+        "ID": 942,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 50,
+        "Precio": 122.27
+    },
+    {
+        "ID": 943,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 10,
+        "Precio": 31.45
+    },
+    {
+        "ID": 944,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 16,
+        "Precio": 372.07
+    },
+    {
+        "ID": 945,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 35,
+        "Precio": 429.28
+    },
+    {
+        "ID": 946,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 28,
+        "Precio": 229.77
+    },
+    {
+        "ID": 947,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 9,
+        "Precio": 15.49
+    },
+    {
+        "ID": 948,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 31,
+        "Precio": 255.36
+    },
+    {
+        "ID": 949,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 2,
+        "Precio": 10.99
+    },
+    {
+        "ID": 950,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 29,
+        "Precio": 466.53
+    },
+    {
+        "ID": 951,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 3,
+        "Precio": 94.65
+    },
+    {
+        "ID": 952,
+        "Nombre": "Teclado mecánico",
+        "Categoría": "Computación",
+        "Cantidad": 6,
+        "Precio": 170.54
+    },
+    {
+        "ID": 953,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 28,
+        "Precio": 80.87
+    },
+    {
+        "ID": 954,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 6,
+        "Precio": 184.23
+    },
+    {
+        "ID": 955,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 48,
+        "Precio": 455.49
+    },
+    {
+        "ID": 956,
+        "Nombre": "Regla 30cm",
+        "Categoría": "Librería",
+        "Cantidad": 40,
+        "Precio": 74.02
+    },
+    {
+        "ID": 957,
+        "Nombre": "Auriculares HyperX",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 113.32
+    },
+    {
+        "ID": 958,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 105.56
+    },
+    {
+        "ID": 959,
+        "Nombre": "Monitor LED 24''",
+        "Categoría": "Computación",
+        "Cantidad": 13,
+        "Precio": 277.5
+    },
+    {
+        "ID": 960,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 13,
+        "Precio": 258.87
+    },
+    {
+        "ID": 961,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 18,
+        "Precio": 293.74
+    },
+    {
+        "ID": 962,
+        "Nombre": "Resaltador Amarillo",
+        "Categoría": "Librería",
+        "Cantidad": 37,
+        "Precio": 54.71
+    },
+    {
+        "ID": 963,
+        "Nombre": "Silla gamer RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 22,
+        "Precio": 236.75
+    },
+    {
+        "ID": 964,
+        "Nombre": "Goma de borrar",
+        "Categoría": "Librería",
+        "Cantidad": 23,
+        "Precio": 82.72
+    },
+    {
+        "ID": 965,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 19,
+        "Precio": 68.77
+    },
+    {
+        "ID": 966,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 32,
+        "Precio": 473.66
+    },
+    {
+        "ID": 967,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 45,
+        "Precio": 67.51
+    },
+    {
+        "ID": 968,
+        "Nombre": "USB 32GB",
+        "Categoría": "Computación",
+        "Cantidad": 43,
+        "Precio": 380.94
+    },
+    {
+        "ID": 969,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 21,
+        "Precio": 57.85
+    },
+    {
+        "ID": 970,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 40,
+        "Precio": 90.6
+    },
+    {
+        "ID": 971,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 1,
+        "Precio": 5.61
+    },
+    {
+        "ID": 972,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 3,
+        "Precio": 460.37
+    },
+    {
+        "ID": 973,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 25,
+        "Precio": 496.05
+    },
+    {
+        "ID": 974,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 21,
+        "Precio": 215.49
+    },
+    {
+        "ID": 975,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 50,
+        "Precio": 185.57
+    },
+    {
+        "ID": 976,
+        "Nombre": "Set de geometría",
+        "Categoría": "Librería",
+        "Cantidad": 3,
+        "Precio": 57.0
+    },
+    {
+        "ID": 977,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 46,
+        "Precio": 258.22
+    },
+    {
+        "ID": 978,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 5,
+        "Precio": 206.55
+    },
+    {
+        "ID": 979,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 36,
+        "Precio": 402.39
+    },
+    {
+        "ID": 980,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 141.82
+    },
+    {
+        "ID": 981,
+        "Nombre": "Router WiFi",
+        "Categoría": "Computación",
+        "Cantidad": 32,
+        "Precio": 198.47
+    },
+    {
+        "ID": 982,
+        "Nombre": "Bolígrafo Azul",
+        "Categoría": "Librería",
+        "Cantidad": 47,
+        "Precio": 415.36
+    },
+    {
+        "ID": 983,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 38,
+        "Precio": 227.64
+    },
+    {
+        "ID": 984,
+        "Nombre": "Cartuchera",
+        "Categoría": "Librería",
+        "Cantidad": 33,
+        "Precio": 461.36
+    },
+    {
+        "ID": 985,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 48,
+        "Precio": 109.97
+    },
+    {
+        "ID": 986,
+        "Nombre": "Cuaderno A4",
+        "Categoría": "Librería",
+        "Cantidad": 50,
+        "Precio": 490.91
+    },
+    {
+        "ID": 987,
+        "Nombre": "Mouse gamer Logitech",
+        "Categoría": "Gaming",
+        "Cantidad": 22,
+        "Precio": 410.81
+    },
+    {
+        "ID": 988,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 26,
+        "Precio": 183.06
+    },
+    {
+        "ID": 989,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 22,
+        "Precio": 229.05
+    },
+    {
+        "ID": 990,
+        "Nombre": "Monitor gaming 144Hz",
+        "Categoría": "Gaming",
+        "Cantidad": 46,
+        "Precio": 118.38
+    },
+    {
+        "ID": 991,
+        "Nombre": "Mouse inalámbrico",
+        "Categoría": "Computación",
+        "Cantidad": 38,
+        "Precio": 42.33
+    },
+    {
+        "ID": 992,
+        "Nombre": "Tarjeta gráfica RTX 3060",
+        "Categoría": "Gaming",
+        "Cantidad": 2,
+        "Precio": 315.5
+    },
+    {
+        "ID": 993,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 42,
+        "Precio": 167.67
+    },
+    {
+        "ID": 994,
+        "Nombre": "Lápiz HB",
+        "Categoría": "Librería",
+        "Cantidad": 9,
+        "Precio": 87.2
+    },
+    {
+        "ID": 995,
+        "Nombre": "Memoria RAM 8GB",
+        "Categoría": "Computación",
+        "Cantidad": 26,
+        "Precio": 376.1
+    },
+    {
+        "ID": 996,
+        "Nombre": "Micrófono streaming",
+        "Categoría": "Gaming",
+        "Cantidad": 15,
+        "Precio": 258.99
+    },
+    {
+        "ID": 997,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 31,
+        "Precio": 243.59
+    },
+    {
+        "ID": 998,
+        "Nombre": "Papel bond 500 hojas",
+        "Categoría": "Librería",
+        "Cantidad": 22,
+        "Precio": 406.8
+    },
+    {
+        "ID": 999,
+        "Nombre": "Alfombrilla XL RGB",
+        "Categoría": "Gaming",
+        "Cantidad": 31,
+        "Precio": 283.31
+    },
+    {
+        "ID": 1000,
+        "Nombre": "Pegamento en barra",
+        "Categoría": "Librería",
+        "Cantidad": 5,
+        "Precio": 238.77
+    }
+]

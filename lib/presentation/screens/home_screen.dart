@@ -34,7 +34,8 @@ class _DrawerMenu extends StatelessWidget {
                 children: [
                   Text(
                     "Menú de Opciones",
-                    style: TextStyle(color: colors.inversePrimary, fontSize: 20),
+                    style:
+                        TextStyle(color: colors.inversePrimary, fontSize: 20),
                   ),
                   SizedBox(height: 50),
                   Text('USUARIO')
@@ -45,11 +46,9 @@ class _DrawerMenu extends StatelessWidget {
           FadeInLeft(
             delay: Duration(milliseconds: 100),
             child: ListTile(
-              leading: Icon(Icons.people_alt),
-              title: Text("CLIENTES"),
-              onTap: () => context.go('/clienteslist')
-              
-            ),
+                leading: Icon(Icons.people_alt),
+                title: Text("CLIENTES"),
+                onTap: () => context.go('/clienteslist')),
           ),
           FadeInLeft(
             delay: Duration(milliseconds: 150),
@@ -62,7 +61,6 @@ class _DrawerMenu extends StatelessWidget {
                   title: Text("Reporte de Ventas"),
                   onTap: () {
                     Navigator.pop(context);
-                    print("Sub Opción 1 seleccionada");
                   },
                 ),
               ],
@@ -79,7 +77,6 @@ class _DrawerMenu extends StatelessWidget {
                   title: Text("Mapa de Ventas"),
                   onTap: () {
                     Navigator.pop(context);
-                    print("Sub Opción 3 seleccionada");
                   },
                 ),
               ],
@@ -92,7 +89,6 @@ class _DrawerMenu extends StatelessWidget {
               title: Text("ENVIAR DATOS"),
               onTap: () {
                 Navigator.pop(context);
-                print("Acerca de seleccionado");
               },
             ),
           ),
@@ -103,7 +99,6 @@ class _DrawerMenu extends StatelessWidget {
               title: Text("CERRAR SESION"),
               onTap: () {
                 Navigator.pop(context);
-                print("Acerca de seleccionado");
               },
             ),
           ),
@@ -114,9 +109,9 @@ class _DrawerMenu extends StatelessWidget {
 }
 
 class _BodyHome extends StatelessWidget {
-  final ColorScheme colors; 
+  final ColorScheme colors;
 
-  const _BodyHome({required this.colors}); 
+  const _BodyHome({required this.colors});
 
   @override
   Widget build(BuildContext context) {
