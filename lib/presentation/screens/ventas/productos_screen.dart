@@ -226,6 +226,9 @@ class _ProductosScreenState extends State<ProductosScreen> {
       carrito.clear();
     });
 
+    // Refrescar productos (vuelve a cargar la lista de productos)
+    await _cargarProductos();
+
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(content: Text('Compra confirmada con éxito')),
     );
