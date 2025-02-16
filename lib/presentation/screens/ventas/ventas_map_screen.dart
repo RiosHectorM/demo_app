@@ -135,8 +135,13 @@ class _MapaVentasScreenState extends State<MapaVentasScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     return Scaffold(
-      appBar: AppBar(title: Text("Mapa de Ventas Realizadas")),
+      appBar: AppBar(
+        title: Text("Mapa de Ventas Realizadas",
+            style: TextStyle(color: colors.inversePrimary)),
+        backgroundColor: colors.primary,
+      ),
       body: FlutterMap(
         mapController: _mapController,
         options: MapOptions(
