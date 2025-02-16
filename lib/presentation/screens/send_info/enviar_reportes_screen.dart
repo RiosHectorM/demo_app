@@ -87,10 +87,32 @@ class _EnviarReportesScreenState extends State<EnviarReportesScreen> {
     }
   }
 
+  Future<void> _compartirPorWhatsapp(String clave) async {
+    var reportesBox = await Hive.openBox('reportes');
+    String reporteJson = reportesBox.get(clave);
+
+    String mensaje = "Reporte de Ventas:\n$reporteJson";
+    String url =
+        "https://wa.me/5493517739781?text=${Uri.encodeComponent(mensaje)}";
+
+    if (await canLaunchUrl(Uri.parse(url))) {
+      await launchUrl(Uri.parse(url));
+      var ventasBox = await Hive.openBox('ventas');
+      await ventasBox.clear();
+    } else {
+      print("No se pudo abrir WhatsApp");
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     return Scaffold(
-      appBar: AppBar(title: Text("Enviar Reportes")),
+      appBar: AppBar(
+        title: Text("Enviar Reportes",
+            style: TextStyle(color: colors.inversePrimary)),
+        backgroundColor: colors.primary,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
@@ -136,6 +158,11 @@ class _EnviarReportesScreenState extends State<EnviarReportesScreen> {
                         IconButton(
                           icon: Icon(Icons.email),
                           onPressed: () => _enviarPorEmailYEliminar(clave),
+                        ),
+                        IconButton(
+                          icon: Icon(Icons.phone_android_outlined,
+                              color: Colors.green),
+                          onPressed: () => _compartirPorWhatsapp(clave),
                         ),
                       ],
                     ),
