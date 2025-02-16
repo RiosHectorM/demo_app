@@ -62,8 +62,8 @@ class _EnviarReportesScreenState extends State<EnviarReportesScreen> {
     // Después de compartir, lo eliminamos
     var ventasBox = await Hive.openBox('ventas');
     await ventasBox.clear();
-    await reportesBox.delete(clave);
-    _cargarReportesGuardados();
+    //await reportesBox.delete(clave);
+    //_cargarReportesGuardados();
   }
 
   /// Envía un reporte por Email y lo elimina después
@@ -80,8 +80,8 @@ class _EnviarReportesScreenState extends State<EnviarReportesScreen> {
       // Después de enviarlo, lo eliminamos
       var ventasBox = await Hive.openBox('ventas');
       await ventasBox.clear();
-      await reportesBox.delete(clave);
-      _cargarReportesGuardados();
+      // await reportesBox.delete(clave);
+      // _cargarReportesGuardados();
     } else {
       print("No se pudo abrir el correo");
     }
