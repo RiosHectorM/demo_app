@@ -5,13 +5,15 @@ import 'package:hive/hive.dart';
 import 'package:dio/dio.dart';
 
 class MapaVentasScreen extends StatefulWidget {
+  const MapaVentasScreen({super.key});
+
   @override
   _MapaVentasScreenState createState() => _MapaVentasScreenState();
 }
 
 class _MapaVentasScreenState extends State<MapaVentasScreen> {
   final MapController _mapController = MapController();
-  List<Marker> _marcadores = [];
+  final List<Marker> _marcadores = [];
   LatLng? _initialPosition; // Guardará la posición del primer marcador
 
   @override
@@ -23,7 +25,7 @@ class _MapaVentasScreenState extends State<MapaVentasScreen> {
   Future<void> _cargarVentas() async {
     var ventasBox = await Hive.openBox('ventas');
     List<dynamic> ventas = ventasBox.values.toList();
-
+    print(ventas);
     for (var venta in ventas) {
       String direccion = venta['direccion'] ?? "";
       if (direccion.isNotEmpty) {

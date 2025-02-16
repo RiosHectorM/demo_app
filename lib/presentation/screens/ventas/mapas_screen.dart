@@ -4,17 +4,19 @@ import 'package:latlong2/latlong.dart';
 import 'package:dio/dio.dart';
 
 class MapaScreen extends StatefulWidget {
+  const MapaScreen({super.key});
+
   @override
   _MapaScreenState createState() => _MapaScreenState();
 }
 
 class _MapaScreenState extends State<MapaScreen> {
   final MapController _mapController = MapController();
-  List<Marker> _marcadores = [];
-  TextEditingController _direccionController = TextEditingController();
+  final List<Marker> _marcadores = [];
+  final TextEditingController _direccionController = TextEditingController();
 
   // Coordenada inicial del mapa
-  LatLng _centroMapa = LatLng(-34.6037, -58.3816); // Buenos Aires, AR
+  final LatLng _centroMapa = LatLng(-34.6037, -58.3816); // Buenos Aires, AR
 
   @override
   Widget build(BuildContext context) {

@@ -43,6 +43,7 @@ class ClientesScreen extends StatelessWidget {
                     onTap: () {
                       final nombreCliente = cliente.nombre;
                       final direccionCliente = cliente.direccion;
+                      final usuarioVendedor = 'VENDEDOR';
 
                       context.goNamed(
                         'productos',
@@ -50,6 +51,8 @@ class ClientesScreen extends StatelessWidget {
                           'nombreCliente': Uri.encodeComponent(nombreCliente),
                           'direccionCliente':
                               Uri.encodeComponent(direccionCliente),
+                          'usuarioVendedor':
+                              Uri.encodeComponent(usuarioVendedor),
                         },
                       );
                     },

@@ -3,6 +3,8 @@ import 'package:hive/hive.dart';
 import 'package:intl/intl.dart';
 
 class ReportesScreen extends StatefulWidget {
+  const ReportesScreen({super.key});
+
   @override
   _ReportesScreenState createState() => _ReportesScreenState();
 }
@@ -27,10 +29,10 @@ class _ReportesScreenState extends State<ReportesScreen> {
   // Calcular la cantidad total de productos comprados por el cliente
   int _calcularCantidadProductos(List productos) {
     int totalProductos = 0;
-    productos.forEach((producto) {
+    for (var producto in productos) {
       totalProductos +=
           producto['Cantidad'] as int; // Sumar la cantidad de cada producto
-    });
+    }
     return totalProductos;
   }
 

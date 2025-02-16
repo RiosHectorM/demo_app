@@ -83,9 +83,7 @@ class _DrawerMenu extends StatelessWidget {
             child: ListTile(
               leading: Icon(Icons.send_to_mobile_outlined),
               title: Text("ENVIAR DATOS"),
-              onTap: () {
-                Navigator.pop(context);
-              },
+              onTap: () => context.goNamed('enviar'),
             ),
           ),
           FadeInLeft(

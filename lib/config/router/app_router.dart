@@ -3,6 +3,7 @@ import 'package:demo_app/presentation/screens/screens.dart';
 import 'package:demo_app/presentation/screens/ventas/ventas_map_screen.dart';
 import 'package:demo_app/presentation/screens/ventas/productos_screen.dart';
 import 'package:demo_app/presentation/screens/ventas/reportes_screen.dart';
+import 'package:demo_app/presentation/screens/send_info/enviar_reportes_screen.dart';
 import 'package:go_router/go_router.dart';
 
 final appRouter = GoRouter(
@@ -30,17 +31,19 @@ final appRouter = GoRouter(
       },
     ),
     GoRoute(
-      path: '/productos/:nombreCliente/:direccionCliente',
+      path: '/productos/:nombreCliente/:direccionCliente/:usuarioVendedor',
       name: 'productos',
       builder: (context, state) {
         final String nombreCliente =
             Uri.decodeComponent(state.pathParameters['nombreCliente']!);
         final String direccionCliente =
             Uri.decodeComponent(state.pathParameters['direccionCliente']!);
-
+        final String usuarioVendedor =
+            Uri.decodeComponent(state.pathParameters['usuarioVendedor']!);
         return ProductosScreen(
           nombre: nombreCliente,
           direccion: direccionCliente,
+          vendedor: usuarioVendedor,
         );
       },
     ),
@@ -56,6 +59,13 @@ final appRouter = GoRouter(
       name: 'mapas',
       builder: (context, GoRouterState state) {
         return MapaVentasScreen();
+      },
+    ),
+    GoRoute(
+      path: '/enviar',
+      name: 'enviar',
+      builder: (context, GoRouterState state) {
+        return EnviarReportesScreen();
       },
     )
   ],

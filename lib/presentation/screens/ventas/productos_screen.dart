@@ -4,12 +4,13 @@ import 'package:hive/hive.dart';
 class ProductosScreen extends StatefulWidget {
   final String nombre;
   final String direccion;
+  final String vendedor;
 
-  const ProductosScreen({
-    super.key,
-    required this.nombre,
-    required this.direccion,
-  });
+  const ProductosScreen(
+      {super.key,
+      required this.nombre,
+      required this.direccion,
+      required this.vendedor});
 
   @override
   _ProductosScreenState createState() => _ProductosScreenState();
@@ -216,6 +217,7 @@ class _ProductosScreenState extends State<ProductosScreen> {
     // Registrar la venta en Hive
     await ventasBox.add({
       'cliente': widget.nombre,
+      'vendedor': widget.vendedor,
       'direccion': widget.direccion,
       'productos': carrito.entries
           .map((e) => {
