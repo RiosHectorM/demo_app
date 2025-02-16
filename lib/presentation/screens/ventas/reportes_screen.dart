@@ -1,3 +1,4 @@
+import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:intl/intl.dart';
@@ -58,8 +59,15 @@ class _ReportesScreenState extends State<ReportesScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     return Scaffold(
-      appBar: AppBar(title: Text("Reportes de Ventas")),
+      appBar: AppBar(
+        title: Text(
+          "Reportes de Ventas",
+          style: TextStyle(color: colors.inversePrimary),
+        ),
+        backgroundColor: colors.primary,
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: [
@@ -82,24 +90,27 @@ class _ReportesScreenState extends State<ReportesScreen> {
                           int cantidadProductos =
                               _calcularCantidadProductos(venta['productos']);
 
-                          return Card(
-                            margin: EdgeInsets.all(8.0),
-                            child: ListTile(
-                              title: Text("Cliente: ${venta['cliente']}"),
-                              subtitle: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(
-                                      "Cantidad de Productos: $cantidadProductos"),
-                                  Text(
-                                    "Total: \$${venta['total']}",
-                                    style:
-                                        TextStyle(fontWeight: FontWeight.bold),
-                                  ),
-                                ],
+                          return FadeInLeft(
+                            duration: Duration(milliseconds: 100 + 20 * index),
+                            child: Card(
+                              margin: EdgeInsets.all(8.0),
+                              child: ListTile(
+                                title: Text("Cliente: ${venta['cliente']}"),
+                                subtitle: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                        "Cantidad de Productos: $cantidadProductos"),
+                                    Text(
+                                      "Total: \$${venta['total']}",
+                                      style: TextStyle(
+                                          fontWeight: FontWeight.bold),
+                                    ),
+                                  ],
+                                ),
+                                trailing: Text(
+                                    "Fecha: ${_formatearFecha(venta['fecha'])}"),
                               ),
-                              trailing: Text(
-                                  "Fecha: ${_formatearFecha(venta['fecha'])}"),
                             ),
                           );
                         },
@@ -124,12 +135,15 @@ class _ReportesScreenState extends State<ReportesScreen> {
                         itemBuilder: (context, index) {
                           String claveReporte = reportesGuardados[index];
 
-                          return Card(
-                            margin: EdgeInsets.all(8.0),
-                            child: ListTile(
-                              title: Text("Reporte enviado: $claveReporte"),
-                              subtitle: Text(
-                                  "Fecha de envío: ${_formatearFecha(claveReporte)}"),
+                          return FadeInLeft(
+                            duration: Duration(milliseconds: 100 + 20 * index),
+                            child: Card(
+                              margin: EdgeInsets.all(8.0),
+                              child: ListTile(
+                                title: Text("Reporte enviado: $claveReporte"),
+                                subtitle: Text(
+                                    "Fecha de envío: ${_formatearFecha(claveReporte)}"),
+                              ),
                             ),
                           );
                         },

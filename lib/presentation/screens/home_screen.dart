@@ -56,8 +56,12 @@ class _DrawerMenu extends StatelessWidget {
                       ),
                       SizedBox(height: 50),
                       // Mostrar el email del usuario logueado
-                      Text(usuariosProvider.currentUser!
-                          .email), // Asegurarnos de que currentUser no es null
+                      FadeIn(
+                        child: Text(
+                          usuariosProvider.currentUser!.email,
+                          style: TextStyle(color: colors.inversePrimary),
+                        ),
+                      ), // Asegurarnos de que currentUser no es null
                     ],
                   ),
                 ),

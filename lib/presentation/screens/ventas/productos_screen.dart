@@ -60,19 +60,25 @@ class _ProductosScreenState extends State<ProductosScreen> {
       });
 
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Producto eliminado del carrito')),
+        SnackBar(
+            content: Text('Producto eliminado del carrito'),
+            duration: Duration(milliseconds: 500),
+            backgroundColor: Colors.red),
       );
 
       Navigator.pop(context); // Cierra el diálogo actual
 
-      Future.delayed(Duration(milliseconds: 200), () {
+      Future.delayed(Duration(milliseconds: 300), () {
         if (carrito.isNotEmpty) {
           _mostrarResumenCompra(); // Reabre el resumen si hay productos
         }
       });
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('El producto no está en el carrito')),
+        SnackBar(
+            content: Text('El producto no está en el carrito'),
+            duration: Duration(milliseconds: 500),
+            backgroundColor: Colors.red),
       );
     }
   }
@@ -80,7 +86,10 @@ class _ProductosScreenState extends State<ProductosScreen> {
   void _mostrarResumenCompra() {
     if (carrito.isEmpty) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('No hay productos en el carrito')),
+        SnackBar(
+            content: Text('No hay productos en el carrito'),
+            duration: Duration(milliseconds: 500),
+            backgroundColor: Colors.red),
       );
       return;
     }
@@ -163,9 +172,9 @@ class _ProductosScreenState extends State<ProductosScreen> {
 
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        content: Text('${producto['Nombre']} agregado al carrito'),
-        duration: Duration(milliseconds: 50),
-      ),
+          content: Text('${producto['Nombre']} agregado al carrito'),
+          duration: Duration(milliseconds: 500),
+          backgroundColor: Colors.green),
     );
   }
 
@@ -182,7 +191,10 @@ class _ProductosScreenState extends State<ProductosScreen> {
 
       if (producto.isEmpty) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Producto no encontrado en el stock')),
+          SnackBar(
+              content: Text('Producto no encontrado en el stock'),
+              duration: Duration(milliseconds: 500),
+              backgroundColor: Colors.red),
         );
         return;
       }
@@ -193,7 +205,10 @@ class _ProductosScreenState extends State<ProductosScreen> {
 
       if (productoEnStock == null) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Producto no encontrado en el stock')),
+          SnackBar(
+              content: Text('Producto no encontrado en el stock'),
+              duration: Duration(milliseconds: 500),
+              backgroundColor: Colors.red),
         );
         return;
       }
@@ -208,7 +223,9 @@ class _ProductosScreenState extends State<ProductosScreen> {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
               content: Text(
-                  'No hay suficiente stock para el producto: ${productoEnStock['Nombre']}')),
+                  'No hay suficiente stock para el producto: ${productoEnStock['Nombre']}'),
+              duration: Duration(milliseconds: 500),
+              backgroundColor: Colors.red),
         );
         return;
       }
@@ -238,7 +255,10 @@ class _ProductosScreenState extends State<ProductosScreen> {
     await _cargarProductos();
 
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(content: Text('Compra confirmada con éxito')),
+      SnackBar(
+          content: Text('Compra confirmada con éxito'),
+          duration: Duration(milliseconds: 500),
+          backgroundColor: Colors.green),
     );
   }
 
@@ -250,8 +270,15 @@ class _ProductosScreenState extends State<ProductosScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final colors = Theme.of(context).colorScheme;
     return Scaffold(
-      appBar: AppBar(title: Text("Productos - Cliente ${widget.nombre}")),
+      appBar: AppBar(
+        title: Text(
+          "Productos - Cliente ${widget.nombre}",
+          style: TextStyle(color: colors.inversePrimary),
+        ),
+        backgroundColor: colors.primary,
+      ),
       body: Column(
         children: [
           Padding(
@@ -330,7 +357,10 @@ class _ProductosScreenState extends State<ProductosScreen> {
                   Navigator.pop(context);
                 } else {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(content: Text("Cantidad no válida")),
+                    SnackBar(
+                        content: Text("CANTIDAD NO VALIDA"),
+                        duration: Duration(milliseconds: 500),
+                        backgroundColor: Colors.red),
                   );
                 }
               },

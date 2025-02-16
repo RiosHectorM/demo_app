@@ -13,7 +13,7 @@ class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
   // Loading time
-  Duration get loadingTime => const Duration(milliseconds: 2000);
+  Duration get loadingTime => const Duration(milliseconds: 1000);
 
   // Función para hashear la contraseña
   String _hashPassword(String password) {
