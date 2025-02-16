@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import '../../../providers/clientes_provider.dart';
+import '../../../providers/usuarios_provider.dart';
 
 class ClientesScreen extends StatelessWidget {
   static const name = 'clienteslist';
@@ -30,7 +31,7 @@ class ClientesScreen extends StatelessWidget {
         children: [
           Expanded(
             child: ListView.builder(
-              itemCount: provider.clientes.length,
+              itemCount: provider.clientes.length, //provider.clientes.length,
               itemBuilder: (context, index) {
                 final cliente = provider.clientes[index];
                 return Card(
@@ -41,9 +42,13 @@ class ClientesScreen extends StatelessWidget {
                   elevation: 2.0,
                   child: ListTile(
                     onTap: () {
+                      final usuariosProvider =
+                          Provider.of<UsuariosProvider>(context, listen: false);
+                      final usuarioVendedor =
+                          usuariosProvider.currentUser?.email ?? "Desconocido";
+
                       final nombreCliente = cliente.nombre;
                       final direccionCliente = cliente.direccion;
-                      final usuarioVendedor = 'VENDEDOR';
 
                       context.goNamed(
                         'productos',
@@ -242,3 +247,5 @@ class AddCliente extends StatelessWidget {
     );
   }
 }
+
+//Box<Clientes> get clientesBox => _clientesBox;

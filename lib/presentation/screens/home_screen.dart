@@ -1,6 +1,8 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:provider/provider.dart';
+import '../../providers/usuarios_provider.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -28,21 +30,39 @@ class _DrawerMenu extends StatelessWidget {
       child: ListView(
         padding: EdgeInsets.zero,
         children: <Widget>[
-          DrawerHeader(
-            decoration: BoxDecoration(color: colors.primary),
-            child: Center(
-              child: Column(
-                children: [
-                  Text(
-                    "Menú de Opciones",
-                    style:
-                        TextStyle(color: colors.inversePrimary, fontSize: 20),
+          Consumer<UsuariosProvider>(
+            builder: (context, usuariosProvider, child) {
+              // Si no hay usuario logueado, redirigimos al login
+              if (usuariosProvider.currentUser == null) {
+                Future.microtask(() => context
+                    .goNamed('login-screen')); // Redirigir inmediatamente
+                return DrawerHeader(
+                  decoration: BoxDecoration(color: colors.primary),
+                  child: Center(
+                    child: Text("No user logged in"),
                   ),
-                  SizedBox(height: 50),
-                  Text('USUARIO')
-                ],
-              ),
-            ),
+                );
+              }
+
+              return DrawerHeader(
+                decoration: BoxDecoration(color: colors.primary),
+                child: Center(
+                  child: Column(
+                    children: [
+                      Text(
+                        "Menú de Opciones",
+                        style: TextStyle(
+                            color: colors.inversePrimary, fontSize: 20),
+                      ),
+                      SizedBox(height: 50),
+                      // Mostrar el email del usuario logueado
+                      Text(usuariosProvider.currentUser!
+                          .email), // Asegurarnos de que currentUser no es null
+                    ],
+                  ),
+                ),
+              );
+            },
           ),
           FadeInLeft(
             delay: Duration(milliseconds: 100),
@@ -91,8 +111,20 @@ class _DrawerMenu extends StatelessWidget {
             child: ListTile(
               leading: Icon(Icons.output_rounded),
               title: Text("CERRAR SESION"),
-              onTap: () {
-                Navigator.pop(context);
+              onTap: () async {
+                try {
+                  // Establecer currentUser a null
+                  Provider.of<UsuariosProvider>(context, listen: false)
+                      .setCurrentUser(null);
+
+                  // Esperar un poco para asegurarnos de que la UI se actualice
+                  await Future.delayed(Duration(milliseconds: 300));
+
+                  // Redirigir a la pantalla de login
+                  context.goNamed('login-screen');
+                } catch (e) {
+                  print('Error al cerrar sesión: $e');
+                }
               },
             ),
           ),

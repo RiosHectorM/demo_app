@@ -25,13 +25,25 @@ class _MapaVentasScreenState extends State<MapaVentasScreen> {
   Future<void> _cargarVentas() async {
     var ventasBox = await Hive.openBox('ventas');
     List<dynamic> ventas = ventasBox.values.toList();
-    print(ventas);
+
     for (var venta in ventas) {
       String direccion = venta['direccion'] ?? "";
       if (direccion.isNotEmpty) {
         LatLng? coordenadas = await _obtenerCoordenadas(direccion);
         if (coordenadas != null) {
-          _agregarMarcador(coordenadas, venta['cliente']);
+          // Verificamos si "productos" es una lista y sumamos las cantidades
+          int cantidadTotal = 0;
+          if (venta['productos'] is List) {
+            cantidadTotal = venta['productos']
+                .map((producto) =>
+                    (producto['Cantidad'] ?? 0) as int) // Convertimos a int
+                .reduce((a, b) => a + b);
+          } else {
+            cantidadTotal = venta['productos']['Cantidad'] ?? 0;
+          }
+
+          _agregarMarcador(coordenadas, venta['cliente'], venta['vendedor'],
+              venta['total'], cantidadTotal.toString());
 
           // Si es el primer marcador, guardar su posición y mover el mapa
           if (_initialPosition == null) {
@@ -66,15 +78,54 @@ class _MapaVentasScreenState extends State<MapaVentasScreen> {
     return null;
   }
 
-  void _agregarMarcador(LatLng ubicacion, String cliente) {
+  // void _agregarMarcador(LatLng ubicacion, String cliente, double total) {
+  //   setState(() {
+  //     _marcadores.add(
+  //       Marker(
+  //         point: ubicacion,
+  //         width: 40,
+  //         height: 40,
+  //         child: Tooltip(
+  //           message: "Cliente: $cliente Importe: $total",
+  //           child: Icon(Icons.location_on, size: 40, color: Colors.blue),
+  //         ),
+  //       ),
+  //     );
+  //   });
+  // }
+
+  void _agregarMarcador(LatLng ubicacion, String cliente, String vendedor,
+      double importe, String cantidad) {
     setState(() {
       _marcadores.add(
         Marker(
           point: ubicacion,
           width: 40,
           height: 40,
-          child: Tooltip(
-            message: "Cliente: $cliente",
+          child: GestureDetector(
+            onTap: () {
+              showDialog(
+                context: context,
+                builder: (context) => AlertDialog(
+                  title: Text("Detalle de Venta"),
+                  content: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text("Cliente: $cliente"),
+                      Text("Vendedor: $vendedor"),
+                      Text("Cantidad de Productos: $cantidad"),
+                      Text("Importe: \$${importe.toStringAsFixed(2)}"),
+                    ],
+                  ),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.pop(context),
+                      child: Text("Cerrar"),
+                    ),
+                  ],
+                ),
+              );
+            },
             child: Icon(Icons.location_on, size: 40, color: Colors.blue),
           ),
         ),
