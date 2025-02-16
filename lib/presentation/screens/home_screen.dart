@@ -33,17 +33,6 @@ class _DrawerMenu extends StatelessWidget {
           Consumer<UsuariosProvider>(
             builder: (context, usuariosProvider, child) {
               // Si no hay usuario logueado, redirigimos al login
-              if (usuariosProvider.currentUser == null) {
-                Future.microtask(() => context
-                    .goNamed('login-screen')); // Redirigir inmediatamente
-                return DrawerHeader(
-                  decoration: BoxDecoration(color: colors.primary),
-                  child: Center(
-                    child: Text("No user logged in"),
-                  ),
-                );
-              }
-
               return DrawerHeader(
                 decoration: BoxDecoration(color: colors.primary),
                 child: Center(
@@ -57,10 +46,9 @@ class _DrawerMenu extends StatelessWidget {
                       SizedBox(height: 50),
                       // Mostrar el email del usuario logueado
                       FadeIn(
-                        child: Text(
-                          usuariosProvider.currentUser!.email,
-                          style: TextStyle(color: colors.inversePrimary),
-                        ),
+                        child: Text(usuariosProvider.currentUser != null
+                            ? "Bienvenido, ${usuariosProvider.currentUser!.email}"
+                            : "Bienvenido"),
                       ), // Asegurarnos de que currentUser no es null
                     ],
                   ),
@@ -73,7 +61,7 @@ class _DrawerMenu extends StatelessWidget {
             child: ListTile(
                 leading: Icon(Icons.people_alt),
                 title: Text("CLIENTES"),
-                onTap: () => context.goNamed('clienteslist')),
+                onTap: () => context.pushNamed('clienteslist')),
           ),
           FadeInLeft(
             delay: Duration(milliseconds: 150),
@@ -84,7 +72,7 @@ class _DrawerMenu extends StatelessWidget {
                 ListTile(
                     leading: Icon(Icons.monetization_on_sharp),
                     title: Text("Reporte de Ventas"),
-                    onTap: () => context.goNamed('reportes')),
+                    onTap: () => context.pushNamed('reportes')),
               ],
             ),
           ),
@@ -97,7 +85,7 @@ class _DrawerMenu extends StatelessWidget {
                 ListTile(
                   leading: Icon(Icons.pin_drop_outlined),
                   title: Text("Mapa de Ventas"),
-                  onTap: () => context.goNamed('mapas'),
+                  onTap: () => context.pushNamed('mapas'),
                 ),
               ],
             ),
@@ -107,7 +95,7 @@ class _DrawerMenu extends StatelessWidget {
             child: ListTile(
               leading: Icon(Icons.send_to_mobile_outlined),
               title: Text("ENVIAR DATOS"),
-              onTap: () => context.goNamed('enviar'),
+              onTap: () => context.pushNamed('enviar'),
             ),
           ),
           FadeInLeft(
@@ -117,14 +105,15 @@ class _DrawerMenu extends StatelessWidget {
               title: Text("CERRAR SESION"),
               onTap: () async {
                 try {
-                  // Establecer currentUser a null
                   Provider.of<UsuariosProvider>(context, listen: false)
                       .setCurrentUser(null);
+                  print(
+                      "Usuario después de cerrar sesión: ${Provider.of<UsuariosProvider>(context, listen: false).currentUser}");
 
-                  // Esperar un poco para asegurarnos de que la UI se actualice
+                  // Esperar que la UI se actualice
                   await Future.delayed(Duration(milliseconds: 300));
 
-                  // Redirigir a la pantalla de login
+                  // Redirigir al login
                   context.goNamed('login-screen');
                 } catch (e) {
                   print('Error al cerrar sesión: $e');

@@ -6,7 +6,7 @@ Future<void> cargarproductos() async {
   final box = await Hive.openBox('productos');
 
   if (box.isEmpty) {
-    String data = await rootBundle.loadString('productos.json');
+    String data = await rootBundle.loadString('assets/productos.json');
     List<dynamic> productos = json.decode(data);
 
     for (var producto in productos) {

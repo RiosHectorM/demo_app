@@ -5,7 +5,7 @@ import '../models/usuarios.dart'; // Asegúrate de importar el archivo usuarios.
 class UsuariosProvider with ChangeNotifier {
   late Box<Usuarios> _usuariosBox;
 
-  late Usuarios? _currentUser;
+  Usuarios? _currentUser;
 
   // Método para inicializar Hive
   Future<void> initHive() async {
@@ -28,11 +28,11 @@ class UsuariosProvider with ChangeNotifier {
   // Método para actualizar el usuario logueado
   void setCurrentUser(Usuarios? user) {
     _currentUser = user;
-    notifyListeners();
+    notifyListeners(); // Asegurar que la UI se actualice
   }
 
   // Getter para obtener el usuario actual
-  Usuarios get currentUser => _currentUser!;
+  Usuarios? get currentUser => _currentUser;
 
   // Agregar un usuario
   Future<void> agregarUsuario(Usuarios usuario) async {

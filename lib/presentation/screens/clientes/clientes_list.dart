@@ -8,7 +8,7 @@ import 'package:hive/hive.dart';
 class ClientesScreen extends StatefulWidget {
   static const name = 'clienteslist';
 
-  ClientesScreen({super.key});
+  const ClientesScreen({super.key});
 
   @override
   State<ClientesScreen> createState() => _ClientesScreenState();
@@ -106,13 +106,13 @@ class _ClientesScreenState extends State<ClientesScreen> {
                                       Provider.of<UsuariosProvider>(context,
                                           listen: false);
                                   final usuarioVendedor =
-                                      usuariosProvider.currentUser?.email ??
+                                      usuariosProvider.currentUser!.email ??
                                           "Desconocido";
 
                                   final nombreCliente = cliente.nombre;
                                   final direccionCliente = cliente.direccion;
 
-                                  context.goNamed(
+                                  context.pushNamed(
                                     'productos',
                                     pathParameters: {
                                       'nombreCliente':

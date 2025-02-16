@@ -5,6 +5,8 @@ import 'package:share_plus/share_plus.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class EnviarReportesScreen extends StatefulWidget {
+  const EnviarReportesScreen({super.key});
+
   @override
   _EnviarReportesScreenState createState() => _EnviarReportesScreenState();
 }
@@ -155,15 +157,15 @@ class _EnviarReportesScreenState extends State<EnviarReportesScreen> {
                           icon: Icon(Icons.share),
                           onPressed: () => _compartirYEliminarReporte(clave),
                         ),
-                        IconButton(
-                          icon: Icon(Icons.email),
-                          onPressed: () => _enviarPorEmailYEliminar(clave),
-                        ),
-                        IconButton(
-                          icon: Icon(Icons.phone_android_outlined,
-                              color: Colors.green),
-                          onPressed: () => _compartirPorWhatsapp(clave),
-                        ),
+                        // IconButton(
+                        //   icon: Icon(Icons.email),
+                        //   onPressed: () => _enviarPorEmailYEliminar(clave),
+                        // ),
+                        // IconButton(
+                        //   icon: Icon(Icons.phone_android_outlined,
+                        //       color: Colors.green),
+                        //   onPressed: () => _compartirPorWhatsapp(clave),
+                        // ),
                       ],
                     ),
                   );
