@@ -25,7 +25,7 @@ class _ClientesScreenState extends State<ClientesScreen> {
 
   late Box ventasBox;
 
-  bool isLoading = true; // Para indicar si los datos están cargando
+  bool isLoading = true;
 
   @override
   void initState() {
@@ -34,25 +34,12 @@ class _ClientesScreenState extends State<ClientesScreen> {
   }
 
   Future<void> _openVentasBox() async {
-    ventasBox =
-        await Hive.openBox('ventas'); // Guarda la referencia en ventasBox
+    ventasBox = await Hive.openBox('ventas');
     setState(() {
       ventas = ventasBox.values.toList();
       reportesGenerados = ventas.map((venta) => venta.toString()).toList();
-      print(reportesGenerados);
-      isLoading = false; // Indica que la carga ha finalizado
+      isLoading = false;
     });
-  }
-
-  void printVentas() {
-    if (ventasBox.isNotEmpty) {
-      print("Contenido de ventasBox:");
-      for (var key in ventasBox.keys) {
-        print('Clave: $key, Valor: ${ventasBox.get(key)}');
-      }
-    } else {
-      print('El box de ventas está vacío.');
-    }
   }
 
   bool clienteEnVentas(String nombreCliente) {
@@ -75,9 +62,7 @@ class _ClientesScreenState extends State<ClientesScreen> {
         backgroundColor: colors.primary,
       ),
       body: isLoading
-          ? Center(
-              child:
-                  CircularProgressIndicator()) // Muestra un loading mientras carga Hive
+          ? Center(child: CircularProgressIndicator())
           : Column(
               children: [
                 Expanded(
@@ -106,7 +91,7 @@ class _ClientesScreenState extends State<ClientesScreen> {
                                       Provider.of<UsuariosProvider>(context,
                                           listen: false);
                                   final usuarioVendedor =
-                                      usuariosProvider.currentUser!.email ??
+                                      usuariosProvider.currentUser?.email ??
                                           "Desconocido";
 
                                   final nombreCliente = cliente.nombre;
@@ -125,36 +110,49 @@ class _ClientesScreenState extends State<ClientesScreen> {
                                   );
                                 },
                                 title: Row(
-                                  mainAxisAlignment: MainAxisAlignment.start,
+                                  crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    clienteEnVentas(cliente.nombre)
-                                        ? Icon(Icons.point_of_sale_sharp,
-                                            color: Colors.green)
-                                        : Icon(Icons.local_shipping_outlined,
-                                            color: Colors.blue),
-                                    SizedBox(width: 50),
-                                    Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        Text(
-                                          cliente.nombre,
-                                          style: TextStyle(
-                                              fontSize: 20,
-                                              fontWeight: FontWeight.bold),
-                                        ),
-                                        Text(
-                                          cliente.direccion,
-                                          style: TextStyle(
-                                              fontStyle: FontStyle.italic),
-                                        ),
-                                        Text(cliente.categoria),
-                                      ],
-                                    )
+                                    Icon(
+                                      clienteEnVentas(cliente.nombre)
+                                          ? Icons.point_of_sale_sharp
+                                          : Icons.local_shipping_outlined,
+                                      color: clienteEnVentas(cliente.nombre)
+                                          ? Colors.green
+                                          : Colors.blue,
+                                    ),
+                                    SizedBox(width: 10),
+                                    Expanded(
+                                      child: Column(
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            cliente.nombre,
+                                            style: TextStyle(
+                                                fontSize: 18,
+                                                fontWeight: FontWeight.bold),
+                                            overflow: TextOverflow.ellipsis,
+                                            maxLines: 1,
+                                          ),
+                                          Text(
+                                            cliente.direccion,
+                                            style: TextStyle(
+                                                fontStyle: FontStyle.italic),
+                                            overflow: TextOverflow.ellipsis,
+                                            maxLines: 1,
+                                          ),
+                                          Text(
+                                            cliente.categoria,
+                                            overflow: TextOverflow.ellipsis,
+                                            maxLines: 1,
+                                          ),
+                                        ],
+                                      ),
+                                    ),
                                   ],
                                 ),
-                                trailing: Row(
-                                  mainAxisSize: MainAxisSize.min,
+                                trailing: Wrap(
+                                  spacing: 5,
                                   children: [
                                     IconButton(
                                       icon: Icon(Icons.edit),
@@ -313,7 +311,7 @@ class AddCliente extends StatelessWidget {
                 nombreController.clear();
                 direccionController.clear();
                 categoriaController.clear();
-                Navigator.pop(context); // Cierra la ventana
+                Navigator.pop(context);
               }
             },
             child: Text("Agregar Cliente"),
@@ -323,5 +321,3 @@ class AddCliente extends StatelessWidget {
     );
   }
 }
-
-//Box<Clientes> get clientesBox => _clientesBox;

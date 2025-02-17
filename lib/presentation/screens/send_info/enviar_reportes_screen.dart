@@ -84,8 +84,6 @@ class _EnviarReportesScreenState extends State<EnviarReportesScreen> {
       await ventasBox.clear();
       // await reportesBox.delete(clave);
       // _cargarReportesGuardados();
-    } else {
-      print("No se pudo abrir el correo");
     }
   }
 
@@ -101,8 +99,6 @@ class _EnviarReportesScreenState extends State<EnviarReportesScreen> {
       await launchUrl(Uri.parse(url));
       var ventasBox = await Hive.openBox('ventas');
       await ventasBox.clear();
-    } else {
-      print("No se pudo abrir WhatsApp");
     }
   }
 
@@ -148,8 +144,21 @@ class _EnviarReportesScreenState extends State<EnviarReportesScreen> {
                 itemCount: _reportesGuardados.length,
                 itemBuilder: (context, index) {
                   String clave = _reportesGuardados[index];
+
+                  bool esUltimoReporte = clave == _reportesGuardados.last;
+
                   return ListTile(
-                    title: Text("Reporte $clave"),
+                    title: Text(
+                      "Reporte $clave",
+                      style: TextStyle(
+                        color: esUltimoReporte
+                            ? Colors.green
+                            : Colors.black, // Verde si es el último
+                        fontWeight: esUltimoReporte
+                            ? FontWeight.bold
+                            : FontWeight.normal,
+                      ),
+                    ),
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [

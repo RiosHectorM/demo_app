@@ -20,7 +20,7 @@ class _ProductosScreenState extends State<ProductosScreen> {
   List<Map<String, dynamic>> productos = [];
   List<Map<String, dynamic>> productosFiltrados = [];
   final TextEditingController _searchController = TextEditingController();
-  Map<int, int> carrito = {}; // ID del producto como int, cantidad como int
+  Map<int, int> carrito = {};
 
   @override
   void initState() {
@@ -160,7 +160,7 @@ class _ProductosScreenState extends State<ProductosScreen> {
   }
 
   void _agregarAlCarrito(Map<String, dynamic> producto, int cantidad) {
-    int idProducto = producto['ID']; // Mantener ID como int
+    int idProducto = producto['ID'];
 
     setState(() {
       if (carrito.containsKey(idProducto)) {
@@ -185,8 +185,8 @@ class _ProductosScreenState extends State<ProductosScreen> {
     // Disminuir stock de productos
     carrito.forEach((id, cantidad) async {
       var producto = productos.firstWhere(
-        (p) => p['ID'] == id, // Comparación directa con el ID como int
-        orElse: () => {}, // Si no lo encuentra, retorna un mapa vacío
+        (p) => p['ID'] == id,
+        orElse: () => {},
       );
 
       if (producto.isEmpty) {
@@ -200,8 +200,7 @@ class _ProductosScreenState extends State<ProductosScreen> {
       }
 
       // Aquí debes buscar el producto en Hive directamente por el ID
-      var productoEnStock = await productosBox
-          .get(id); // Aquí se obtiene el producto directamente de Hive
+      var productoEnStock = await productosBox.get(id);
 
       if (productoEnStock == null) {
         ScaffoldMessenger.of(context).showSnackBar(
@@ -238,7 +237,7 @@ class _ProductosScreenState extends State<ProductosScreen> {
       'direccion': widget.direccion,
       'productos': carrito.entries
           .map((e) => {
-                'ID': e.key, // Usar e.key como String
+                'ID': e.key,
                 'Cantidad': e.value,
               })
           .toList(),

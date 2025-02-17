@@ -7,7 +7,7 @@ import 'package:demo_app/presentation/screens/send_info/enviar_reportes_screen.d
 import 'package:go_router/go_router.dart';
 
 final appRouter = GoRouter(
-  initialLocation: '/login', // Ruta inicial
+  initialLocation: '/login',
   routes: [
     GoRoute(
       path: '/login',
@@ -18,7 +18,7 @@ final appRouter = GoRouter(
     ),
     GoRoute(
       path: '/home',
-      name: 'home', // Ruta para la pantalla principal después del login
+      name: 'home',
       builder: (context, GoRouterState state) {
         return const HomeScreen();
       },

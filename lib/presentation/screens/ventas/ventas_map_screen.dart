@@ -14,7 +14,7 @@ class MapaVentasScreen extends StatefulWidget {
 class _MapaVentasScreenState extends State<MapaVentasScreen> {
   final MapController _mapController = MapController();
   final List<Marker> _marcadores = [];
-  LatLng? _initialPosition; // Guardará la posición del primer marcador
+  LatLng? _initialPosition;
 
   @override
   void initState() {
@@ -31,12 +31,10 @@ class _MapaVentasScreenState extends State<MapaVentasScreen> {
       if (direccion.isNotEmpty) {
         LatLng? coordenadas = await _obtenerCoordenadas(direccion);
         if (coordenadas != null) {
-          // Verificamos si "productos" es una lista y sumamos las cantidades
           int cantidadTotal = 0;
           if (venta['productos'] is List) {
             cantidadTotal = venta['productos']
-                .map((producto) =>
-                    (producto['Cantidad'] ?? 0) as int) // Convertimos a int
+                .map((producto) => (producto['Cantidad'] ?? 0) as int)
                 .reduce((a, b) => a + b);
           } else {
             cantidadTotal = venta['productos']['Cantidad'] ?? 0;
@@ -73,26 +71,10 @@ class _MapaVentasScreenState extends State<MapaVentasScreen> {
         return LatLng(lat, lon);
       }
     } catch (e) {
-      print("Error obteniendo coordenadas: $e");
+      throw Exception('Error obteniendo coordenadas: $e');
     }
     return null;
   }
-
-  // void _agregarMarcador(LatLng ubicacion, String cliente, double total) {
-  //   setState(() {
-  //     _marcadores.add(
-  //       Marker(
-  //         point: ubicacion,
-  //         width: 40,
-  //         height: 40,
-  //         child: Tooltip(
-  //           message: "Cliente: $cliente Importe: $total",
-  //           child: Icon(Icons.location_on, size: 40, color: Colors.blue),
-  //         ),
-  //       ),
-  //     );
-  //   });
-  // }
 
   void _agregarMarcador(LatLng ubicacion, String cliente, String vendedor,
       double importe, String cantidad) {

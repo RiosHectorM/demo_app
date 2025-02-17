@@ -2,8 +2,7 @@ import 'package:hive/hive.dart';
 
 part 'usuarios.g.dart';
 
-@HiveType(
-    typeId: 2) // Cambié el typeId para evitar conflictos con el modelo Clientes
+@HiveType(typeId: 2)
 class Usuarios {
   @HiveField(0)
   String id;

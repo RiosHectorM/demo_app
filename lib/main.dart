@@ -7,8 +7,8 @@ import 'package:demo_app/providers/productos_provider.dart';
 
 import 'package:demo_app/providers/clientes_provider.dart';
 import 'package:demo_app/providers/usuarios_provider.dart';
-import 'models/clientes.dart'; // Asegúrate de que esté importado
-import 'models/usuarios.dart'; // Asegúrate de que esté importado
+import 'models/clientes.dart';
+import 'models/usuarios.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -45,14 +45,14 @@ class _MyAppState extends State<MyApp> {
             final usuariosProvider = UsuariosProvider();
             clientesProvider.initHive();
             usuariosProvider.initHive();
-            return clientesProvider; // Regresa uno de los proveedores si es necesario
+            return clientesProvider;
           },
         ),
         ChangeNotifierProvider(
           create: (context) {
             final usuariosProvider = UsuariosProvider();
             usuariosProvider.initHive();
-            return usuariosProvider; // Asegúrate de que ambos estén accesibles
+            return usuariosProvider;
           },
         ),
       ],

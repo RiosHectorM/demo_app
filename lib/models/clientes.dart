@@ -2,8 +2,7 @@ import 'package:hive/hive.dart';
 
 part 'clientes.g.dart';
 
-@HiveType(
-    typeId: 1) // Cambié el typeId para evitar conflictos con el modelo Usuario
+@HiveType(typeId: 1)
 class Clientes extends HiveObject {
   @HiveField(0)
   String icono;

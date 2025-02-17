@@ -12,14 +12,14 @@ class ReportesScreen extends StatefulWidget {
 
 class _ReportesScreenState extends State<ReportesScreen> {
   List<dynamic> ventas = [];
-  List<String> reportesGuardados = []; // Reportes enviados
-  List<String> reportesGenerados = []; // Reportes generados (no enviados)
+  List<String> reportesGuardados = [];
+  List<String> reportesGenerados = [];
 
   @override
   void initState() {
     super.initState();
-    _cargarVentas(); // Cargar las ventas al inicio
-    _cargarReportesGuardados(); // Cargar los reportes enviados
+    _cargarVentas();
+    _cargarReportesGuardados();
   }
 
   // Cargar las ventas desde Hive
@@ -27,9 +27,7 @@ class _ReportesScreenState extends State<ReportesScreen> {
     var ventasBox = await Hive.openBox('ventas');
     setState(() {
       ventas = ventasBox.values.toList();
-      reportesGenerados = ventas
-          .map((venta) => venta.toString())
-          .toList(); // Actualizar reportes generados
+      reportesGenerados = ventas.map((venta) => venta.toString()).toList();
     });
   }
 
@@ -45,8 +43,7 @@ class _ReportesScreenState extends State<ReportesScreen> {
   int _calcularCantidadProductos(List productos) {
     int totalProductos = 0;
     for (var producto in productos) {
-      totalProductos +=
-          producto['Cantidad'] as int; // Sumar la cantidad de cada producto
+      totalProductos += producto['Cantidad'] as int;
     }
     return totalProductos;
   }

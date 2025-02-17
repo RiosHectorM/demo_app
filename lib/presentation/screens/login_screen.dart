@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_login/flutter_login.dart';
 import 'package:go_router/go_router.dart';
 import 'package:hive/hive.dart';
-import 'package:crypto/crypto.dart'; // Para el hashing de contraseñas
+import 'package:crypto/crypto.dart';
 import 'package:provider/provider.dart';
 import '../../providers/usuarios_provider.dart';
 
@@ -17,33 +17,30 @@ class LoginScreen extends StatelessWidget {
 
   // Función para hashear la contraseña
   String _hashPassword(String password) {
-    var bytes = utf8.encode(password); // Convierte la contraseña a bytes
-    var digest = sha256.convert(bytes); // Hashea la contraseña
+    var bytes = utf8.encode(password);
+    var digest = sha256.convert(bytes);
     return digest.toString();
   }
 
   // Login
   Future<String?> _authUser(LoginData data, BuildContext context) async {
-    var box =
-        await Hive.openBox<Usuarios>('usuarios'); // Abrir la caja de usuarios
+    var box = await Hive.openBox<Usuarios>('usuarios');
 
     for (var user in box.values) {
       if (user.email == data.name &&
           user.password == _hashPassword(data.password)) {
-        // Si el login es exitoso, actualizar el usuario logueado en el provider
         Provider.of<UsuariosProvider>(context, listen: false)
             .setCurrentUser(user);
 
-        return null; // Login exitoso
+        return null;
       }
     }
 
-    return 'User not authorized'; // Si no se encuentra el usuario
+    return 'User not authorized';
   }
 
   // Forgot Password
   Future<String?> _recoverPassword(String name) {
-    debugPrint('Name: $name');
     return Future.delayed(loadingTime).then((_) {
       //! Lógica para recuperar contraseña
       if (name.isEmpty) {
@@ -55,8 +52,6 @@ class LoginScreen extends StatelessWidget {
 
   // Signup
   Future<String?> _signupUser(SignupData data, BuildContext context) async {
-    debugPrint('Signup Name: ${data.name}, Password: ${data.password}');
-
     // Abrir la caja de usuarios
     var box = await Hive.openBox<Usuarios>('usuarios');
 
@@ -69,20 +64,18 @@ class LoginScreen extends StatelessWidget {
 
     // Si no está registrado, guardar el nuevo usuario
     var newUser = Usuarios(
-      id: DateTime.now()
-          .millisecondsSinceEpoch
-          .toString(), // Generar un ID único
+      id: DateTime.now().millisecondsSinceEpoch.toString(),
       email: data.name!,
-      password: _hashPassword(data.password!), // Guardar la contraseña hasheada
+      password: _hashPassword(data.password!),
     );
 
-    await box.add(newUser); // Guardar el usuario en la caja
+    await box.add(newUser);
 
     // Actualizar el usuario logueado en el provider
     Provider.of<UsuariosProvider>(context, listen: false)
         .setCurrentUser(newUser);
 
-    return null; // Registro exitoso
+    return null;
   }
 
   @override
@@ -95,12 +88,10 @@ class LoginScreen extends StatelessWidget {
           primaryColor: colors.primary,
           accentColor: colors.inversePrimary,
         ),
-        onLogin: (data) =>
-            _authUser(data, context), // Pasar el contexto a _authUser
+        onLogin: (data) => _authUser(data, context),
         onRecoverPassword: _recoverPassword,
         onSignup: (data) => _signupUser(data, context),
         onSubmitAnimationCompleted: () {
-          // Redirigir al HomeScreen después de la animación de submit (registro exitoso)
           context.goNamed('home');
         },
       ),
